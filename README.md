@@ -277,19 +277,6 @@ npm run dev
 
 <div align="center">
 
-**University of Mumbai**  
-**T.Y.B.Sc. Computer Science — Semester V (Academic Year 2026–2027)**  
-**Department of Computer Science, Data Science & AI**  
-**Bharatiya Vidya Bhavan's Sardar Patel College / Bhavan's College (Autonomous), Andheri (W), Mumbai**
-
-<br/>
-
-| Role | Name | Designation / Roll No |
-|:---|:---|:---|
-| 🎓 **Student / Researcher** | **Mr. Zameer Ahmed Shaikh** | Roll No: **TYCS46** |
-| 👩‍🏫 **Project Guide** | **Mrs. Krupa Kamdar** | Head / In-charge, Dept. of Computer Science |
-| 🏛️ **Principal** | **Dr. Savita K. Pawar** | Bhavan's College (Autonomous) |
-
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Zameer%20Shaikh-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zameer-shaikh-1a9482345)
