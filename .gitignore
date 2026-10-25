@@ -3,9 +3,7 @@
 .env.*
 *.env
 
-# Large datasets & raw videos
-dataset/
-*.mp4
+# Large archives (keep zips out)
 *.zip
 *.tar.gz
 
