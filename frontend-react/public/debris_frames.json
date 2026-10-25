@@ -1,0 +1,247 @@
+[
+  {
+    "frame_idx": 0,
+    "timestamp_s": 0,
+    "annotated_frame_url": "/debris/frame_0.jpg",
+    "detections": [
+      {
+        "label": "animal_starfish",
+        "confidence": "59.5%",
+        "threat_level": "MODERATE"
+      },
+      {
+        "label": "Marine Plastic Debris",
+        "confidence": "41.6%",
+        "threat_level": "MODERATE"
+      }
+    ],
+    "latency_ms": 1745.5
+  },
+  {
+    "frame_idx": 1,
+    "timestamp_s": 2,
+    "annotated_frame_url": "/debris/frame_1.jpg",
+    "detections": [
+      {
+        "label": "rov",
+        "confidence": "67.2%",
+        "threat_level": "CRITICAL"
+      },
+      {
+        "label": "animal_fish",
+        "confidence": "41.7%",
+        "threat_level": "MODERATE"
+      },
+      {
+        "label": "rov",
+        "confidence": "21.1%",
+        "threat_level": "MODERATE"
+      }
+    ],
+    "latency_ms": 15.6
+  },
+  {
+    "frame_idx": 2,
+    "timestamp_s": 4,
+    "annotated_frame_url": "/debris/frame_2.jpg",
+    "detections": [
+      {
+        "label": "rov",
+        "confidence": "85.8%",
+        "threat_level": "CRITICAL"
+      },
+      {
+        "label": "trash_bag",
+        "confidence": "69.4%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 26.2
+  },
+  {
+    "frame_idx": 3,
+    "timestamp_s": 6,
+    "annotated_frame_url": "/debris/frame_3.jpg",
+    "detections": [
+      {
+        "label": "plant",
+        "confidence": "90.3%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 19.7
+  },
+  {
+    "frame_idx": 4,
+    "timestamp_s": 8,
+    "annotated_frame_url": "/debris/frame_4.jpg",
+    "detections": [
+      {
+        "label": "rov",
+        "confidence": "91.0%",
+        "threat_level": "CRITICAL"
+      },
+      {
+        "label": "Marine Plastic Debris",
+        "confidence": "79.3%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 14.3
+  },
+  {
+    "frame_idx": 5,
+    "timestamp_s": 10,
+    "annotated_frame_url": "/debris/frame_5.jpg",
+    "detections": [
+      {
+        "label": "rov",
+        "confidence": "92.2%",
+        "threat_level": "CRITICAL"
+      },
+      {
+        "label": "rov",
+        "confidence": "80.0%",
+        "threat_level": "CRITICAL"
+      },
+      {
+        "label": "Marine Plastic Debris",
+        "confidence": "60.3%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 20.4
+  },
+  {
+    "frame_idx": 6,
+    "timestamp_s": 12,
+    "annotated_frame_url": "/debris/frame_6.jpg",
+    "detections": [
+      {
+        "label": "rov",
+        "confidence": "96.5%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 14.2
+  },
+  {
+    "frame_idx": 7,
+    "timestamp_s": 14,
+    "annotated_frame_url": "/debris/frame_7.jpg",
+    "detections": [
+      {
+        "label": "Marine Plastic Debris",
+        "confidence": "68.1%",
+        "threat_level": "CRITICAL"
+      },
+      {
+        "label": "trash_container",
+        "confidence": "52.8%",
+        "threat_level": "MODERATE"
+      },
+      {
+        "label": "trash_can",
+        "confidence": "31.7%",
+        "threat_level": "MODERATE"
+      }
+    ],
+    "latency_ms": 24.4
+  },
+  {
+    "frame_idx": 8,
+    "timestamp_s": 16,
+    "annotated_frame_url": "/debris/frame_8.jpg",
+    "detections": [
+      {
+        "label": "trash_can",
+        "confidence": "97.1%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 16.3
+  },
+  {
+    "frame_idx": 9,
+    "timestamp_s": 18,
+    "annotated_frame_url": "/debris/frame_9.jpg",
+    "detections": [
+      {
+        "label": "trash_pipe",
+        "confidence": "80.5%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 23.9
+  },
+  {
+    "frame_idx": 10,
+    "timestamp_s": 20,
+    "annotated_frame_url": "/debris/frame_10.jpg",
+    "detections": [
+      {
+        "label": "rov",
+        "confidence": "83.5%",
+        "threat_level": "CRITICAL"
+      },
+      {
+        "label": "plant",
+        "confidence": "25.5%",
+        "threat_level": "MODERATE"
+      }
+    ],
+    "latency_ms": 15.0
+  },
+  {
+    "frame_idx": 11,
+    "timestamp_s": 22,
+    "annotated_frame_url": "/debris/frame_11.jpg",
+    "detections": [
+      {
+        "label": "rov",
+        "confidence": "52.9%",
+        "threat_level": "MODERATE"
+      }
+    ],
+    "latency_ms": 14.6
+  },
+  {
+    "frame_idx": 12,
+    "timestamp_s": 24,
+    "annotated_frame_url": "/debris/frame_12.jpg",
+    "detections": [
+      {
+        "label": "rov",
+        "confidence": "71.7%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 21.6
+  },
+  {
+    "frame_idx": 13,
+    "timestamp_s": 26,
+    "annotated_frame_url": "/debris/frame_13.jpg",
+    "detections": [
+      {
+        "label": "Submerged Ghost Net",
+        "confidence": "91.5%",
+        "threat_level": "MODERATE"
+      }
+    ],
+    "latency_ms": 19.3
+  },
+  {
+    "frame_idx": 14,
+    "timestamp_s": 28,
+    "annotated_frame_url": "/debris/frame_14.jpg",
+    "detections": [
+      {
+        "label": "animal_fish",
+        "confidence": "97.6%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 14.8
+  }
+]

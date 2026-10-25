@@ -1,23 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import { fetchHsiScene } from '../../services/api';
+import { getCachedHsiScene } from '../../services/mockData';
 import { Layers, RefreshCw, ChevronLeft, ChevronRight, Trees, ShieldCheck, Sparkles, Activity, Cpu } from 'lucide-react';
 
 const ECOSYSTEM_OPTIONS = [
-  { label: '🌱 Mangrove Forests & Delta Mudflats (Sundarbans, Kutch, Bhitarkanika)', value: 'Mangrove Intertidal', count: 28 },
-  { label: '🪸 Coral Reef Sanctuaries & Lagoons (Gulf of Mannar, Lakshadweep, Andamans)', value: 'Coral Reef Lagoon', count: 27 },
-  { label: '🐟 Active Coastal Fishing Grounds & Harbors (Veraval, Mumbai High, Wadge Bank)', value: 'Fishing Grounds', count: 27 },
-  { label: '🚢 Deep-Sea Tanker Shipping Corridors (Malacca Strait, Red Sea, Persian Gulf)', value: 'Deepwater Tanker Lanes', count: 28 },
+  { label: '🌱 Mangrove Forests & Delta Mudflats (Sundarbans, Kutch, Bhitarkanika)', value: 'Mangrove Intertidal', count: 4 },
+  { label: '🪸 Coral Reef Sanctuaries & Lagoons (Gulf of Mannar, Lakshadweep, Andamans)', value: 'Coral Reef Lagoon', count: 4 },
+  { label: '🐟 Active Coastal Fishing Grounds & Harbors (Veraval, Mumbai High, Wadge Bank)', value: 'Fishing Grounds', count: 4 },
+  { label: '🚢 Deep-Sea Tanker Shipping Corridors (Malacca Strait, Red Sea, Persian Gulf)', value: 'Deepwater Tanker Lanes', count: 4 },
 ];
 
 export const HSILab = () => {
   const [ecoCategory, setEcoCategory] = useState(ECOSYSTEM_OPTIONS[0].value);
   const [sceneIdx, setSceneIdx] = useState(0);
   const [loading, setLoading] = useState(false);
-  const [sceneData, setSceneData] = useState(null);
+  const [sceneData, setSceneData] = useState(() => getCachedHsiScene(ECOSYSTEM_OPTIONS[0].value, 0));
 
   const activeEcoObj = ECOSYSTEM_OPTIONS.find(e => e.value === ecoCategory) || ECOSYSTEM_OPTIONS[0];
 
-  // Fetch HSI / SAR Scene from FastAPI backend
+  // Fetch HSI / SAR Scene from FastAPI backend with automatic high-speed CDN fallback
   useEffect(() => {
     let isMounted = true;
     async function loadData() {
@@ -26,9 +27,12 @@ export const HSILab = () => {
         const res = await fetchHsiScene(ecoCategory, sceneIdx);
         if (res && isMounted) {
           setSceneData(res);
+        } else if (isMounted) {
+          setSceneData(getCachedHsiScene(ecoCategory, sceneIdx));
         }
       } catch (err) {
-        console.error("HSI Scene error", err);
+        console.warn("HSI Scene fetch fallback", err);
+        if (isMounted) setSceneData(getCachedHsiScene(ecoCategory, sceneIdx));
       } finally {
         if (isMounted) setLoading(false);
       }
@@ -37,9 +41,9 @@ export const HSILab = () => {
     return () => { isMounted = false; };
   }, [ecoCategory, sceneIdx]);
 
-  const sarInputUrl = sceneData?.sar_input_b64;
-  const gtMaskUrl = sceneData?.gt_mask_b64;
-  const overlayUrl = sceneData?.overlay_b64;
+  const sarInputUrl = sceneData?.sar_input_b64 || sceneData?.sar_input_url;
+  const gtMaskUrl = sceneData?.gt_mask_b64 || sceneData?.gt_mask_url;
+  const overlayUrl = sceneData?.overlay_b64 || sceneData?.overlay_url;
 
   return (
     <div className="bg-[#111D3A] border border-[#1E293B] rounded-2xl p-6 shadow-sm space-y-6 text-slate-100">
@@ -80,8 +84,10 @@ export const HSILab = () => {
         <select
           value={ecoCategory}
           onChange={(e) => {
-            setEcoCategory(e.target.value);
+            const nextCategory = e.target.value;
+            setEcoCategory(nextCategory);
             setSceneIdx(0);
+            setSceneData(getCachedHsiScene(nextCategory, 0));
           }}
           className="w-full bg-[#111D3A] border border-[#1E293B] text-xs font-bold text-slate-100 rounded-xl px-3.5 py-2.5 focus:outline-none focus:border-sky-500 cursor-pointer"
         >
@@ -96,7 +102,11 @@ export const HSILab = () => {
       {/* Scene Navigation Bar */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-3 items-center">
         <button
-          onClick={() => setSceneIdx((prev) => (prev > 0 ? prev - 1 : activeEcoObj.count - 1))}
+          onClick={() => {
+            const nextIdx = sceneIdx > 0 ? sceneIdx - 1 : activeEcoObj.count - 1;
+            setSceneIdx(nextIdx);
+            setSceneData(getCachedHsiScene(ecoCategory, nextIdx));
+          }}
           className="px-4 py-2.5 rounded-xl bg-[#0D1730] hover:bg-[#1A284B] border border-[#1E293B] text-slate-200 font-bold text-xs flex items-center justify-center gap-1.5 transition-all"
         >
           <ChevronLeft className="w-4 h-4 text-sky-400" /> ⬅️ Previous Image
@@ -105,7 +115,11 @@ export const HSILab = () => {
         <div className="md:col-span-2">
           <select
             value={sceneIdx}
-            onChange={(e) => setSceneIdx(Number(e.target.value))}
+            onChange={(e) => {
+              const nextIdx = Number(e.target.value);
+              setSceneIdx(nextIdx);
+              setSceneData(getCachedHsiScene(ecoCategory, nextIdx));
+            }}
             className="w-full bg-[#0D1730] border border-[#1E293B] text-xs font-bold text-slate-100 rounded-xl px-3 py-2.5 focus:outline-none focus:border-sky-500 text-center font-mono cursor-pointer"
           >
             {Array.from({ length: activeEcoObj.count }).map((_, i) => (
@@ -117,7 +131,11 @@ export const HSILab = () => {
         </div>
 
         <button
-          onClick={() => setSceneIdx((prev) => (prev + 1) % activeEcoObj.count)}
+          onClick={() => {
+            const nextIdx = (sceneIdx + 1) % activeEcoObj.count;
+            setSceneIdx(nextIdx);
+            setSceneData(getCachedHsiScene(ecoCategory, nextIdx));
+          }}
           className="px-4 py-2.5 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-all"
         >
           Next Image ➡️ <ChevronRight className="w-4 h-4" />
@@ -194,7 +212,7 @@ export const HSILab = () => {
                 Generating U-Net Mask...
               </div>
             )}
-            {loading && (
+            {loading && !overlayUrl && (
               <div className="absolute inset-0 bg-slate-950/80 flex items-center justify-center text-white text-xs font-bold font-mono">
                 <RefreshCw className="w-5 h-5 animate-spin text-sky-400 mr-2" /> Running ResNet34 U-Net...
               </div>

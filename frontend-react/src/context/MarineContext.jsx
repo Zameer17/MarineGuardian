@@ -1,5 +1,11 @@
 import React, { createContext, useContext, useState } from 'react';
-import { COASTAL_ZONES, ALL_INDIA_FLEET_DATABASE, GLOBAL_OIL_SLICKS } from '../services/mockData';
+import { 
+  COASTAL_ZONES, 
+  ALL_INDIA_FLEET_DATABASE, 
+  GLOBAL_OIL_SLICKS, 
+  getCachedHsiScene, 
+  getCachedDebrisVideoFrame 
+} from '../services/mockData';
 
 const MarineContext = createContext();
 
@@ -13,8 +19,8 @@ export const MarineProvider = ({ children }) => {
   const [motionFilter, setMotionFilter] = useState('All Ships');
 
   // Cached state for satellite GIS components to prevent tab-switch flickering
-  const [cachedHsiData, setCachedHsiData] = useState(null);
-  const [cachedDebrisData, setCachedDebrisData] = useState(null);
+  const [cachedHsiData, setCachedHsiData] = useState(() => getCachedHsiScene('Mangrove Intertidal', 0));
+  const [cachedDebrisData, setCachedDebrisData] = useState(() => getCachedDebrisVideoFrame(0));
 
   const activeHub = COASTAL_ZONES[activeHubKey] || COASTAL_ZONES.mumbai;
   

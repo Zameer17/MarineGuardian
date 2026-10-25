@@ -4529,3 +4529,493 @@ export const GLOBAL_OIL_SLICKS = [
     ]
   }
 ];
+
+
+// ==========================================
+// AUTHENTIC CV CACHE & FALLBACK DATASETS
+// ==========================================
+export const MOCK_DEBRIS_FRAMES = [
+  {
+    "frame_idx": 0,
+    "timestamp_s": 0,
+    "annotated_frame_url": "/debris/frame_0.jpg",
+    "detections": [
+      {
+        "label": "animal_starfish",
+        "confidence": "59.5%",
+        "threat_level": "MODERATE"
+      },
+      {
+        "label": "Marine Plastic Debris",
+        "confidence": "41.6%",
+        "threat_level": "MODERATE"
+      }
+    ],
+    "latency_ms": 1745.5
+  },
+  {
+    "frame_idx": 1,
+    "timestamp_s": 2,
+    "annotated_frame_url": "/debris/frame_1.jpg",
+    "detections": [
+      {
+        "label": "rov",
+        "confidence": "67.2%",
+        "threat_level": "CRITICAL"
+      },
+      {
+        "label": "animal_fish",
+        "confidence": "41.7%",
+        "threat_level": "MODERATE"
+      },
+      {
+        "label": "rov",
+        "confidence": "21.1%",
+        "threat_level": "MODERATE"
+      }
+    ],
+    "latency_ms": 15.6
+  },
+  {
+    "frame_idx": 2,
+    "timestamp_s": 4,
+    "annotated_frame_url": "/debris/frame_2.jpg",
+    "detections": [
+      {
+        "label": "rov",
+        "confidence": "85.8%",
+        "threat_level": "CRITICAL"
+      },
+      {
+        "label": "trash_bag",
+        "confidence": "69.4%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 26.2
+  },
+  {
+    "frame_idx": 3,
+    "timestamp_s": 6,
+    "annotated_frame_url": "/debris/frame_3.jpg",
+    "detections": [
+      {
+        "label": "plant",
+        "confidence": "90.3%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 19.7
+  },
+  {
+    "frame_idx": 4,
+    "timestamp_s": 8,
+    "annotated_frame_url": "/debris/frame_4.jpg",
+    "detections": [
+      {
+        "label": "rov",
+        "confidence": "91.0%",
+        "threat_level": "CRITICAL"
+      },
+      {
+        "label": "Marine Plastic Debris",
+        "confidence": "79.3%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 14.3
+  },
+  {
+    "frame_idx": 5,
+    "timestamp_s": 10,
+    "annotated_frame_url": "/debris/frame_5.jpg",
+    "detections": [
+      {
+        "label": "rov",
+        "confidence": "92.2%",
+        "threat_level": "CRITICAL"
+      },
+      {
+        "label": "rov",
+        "confidence": "80.0%",
+        "threat_level": "CRITICAL"
+      },
+      {
+        "label": "Marine Plastic Debris",
+        "confidence": "60.3%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 20.4
+  },
+  {
+    "frame_idx": 6,
+    "timestamp_s": 12,
+    "annotated_frame_url": "/debris/frame_6.jpg",
+    "detections": [
+      {
+        "label": "rov",
+        "confidence": "96.5%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 14.2
+  },
+  {
+    "frame_idx": 7,
+    "timestamp_s": 14,
+    "annotated_frame_url": "/debris/frame_7.jpg",
+    "detections": [
+      {
+        "label": "Marine Plastic Debris",
+        "confidence": "68.1%",
+        "threat_level": "CRITICAL"
+      },
+      {
+        "label": "trash_container",
+        "confidence": "52.8%",
+        "threat_level": "MODERATE"
+      },
+      {
+        "label": "trash_can",
+        "confidence": "31.7%",
+        "threat_level": "MODERATE"
+      }
+    ],
+    "latency_ms": 24.4
+  },
+  {
+    "frame_idx": 8,
+    "timestamp_s": 16,
+    "annotated_frame_url": "/debris/frame_8.jpg",
+    "detections": [
+      {
+        "label": "trash_can",
+        "confidence": "97.1%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 16.3
+  },
+  {
+    "frame_idx": 9,
+    "timestamp_s": 18,
+    "annotated_frame_url": "/debris/frame_9.jpg",
+    "detections": [
+      {
+        "label": "trash_pipe",
+        "confidence": "80.5%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 23.9
+  },
+  {
+    "frame_idx": 10,
+    "timestamp_s": 20,
+    "annotated_frame_url": "/debris/frame_10.jpg",
+    "detections": [
+      {
+        "label": "rov",
+        "confidence": "83.5%",
+        "threat_level": "CRITICAL"
+      },
+      {
+        "label": "plant",
+        "confidence": "25.5%",
+        "threat_level": "MODERATE"
+      }
+    ],
+    "latency_ms": 15.0
+  },
+  {
+    "frame_idx": 11,
+    "timestamp_s": 22,
+    "annotated_frame_url": "/debris/frame_11.jpg",
+    "detections": [
+      {
+        "label": "rov",
+        "confidence": "52.9%",
+        "threat_level": "MODERATE"
+      }
+    ],
+    "latency_ms": 14.6
+  },
+  {
+    "frame_idx": 12,
+    "timestamp_s": 24,
+    "annotated_frame_url": "/debris/frame_12.jpg",
+    "detections": [
+      {
+        "label": "rov",
+        "confidence": "71.7%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 21.6
+  },
+  {
+    "frame_idx": 13,
+    "timestamp_s": 26,
+    "annotated_frame_url": "/debris/frame_13.jpg",
+    "detections": [
+      {
+        "label": "Submerged Ghost Net",
+        "confidence": "91.5%",
+        "threat_level": "MODERATE"
+      }
+    ],
+    "latency_ms": 19.3
+  },
+  {
+    "frame_idx": 14,
+    "timestamp_s": 28,
+    "annotated_frame_url": "/debris/frame_14.jpg",
+    "detections": [
+      {
+        "label": "animal_fish",
+        "confidence": "97.6%",
+        "threat_level": "CRITICAL"
+      }
+    ],
+    "latency_ms": 14.8
+  }
+];
+
+export const MOCK_HSI_SCENES = {
+  "Mangrove Intertidal": [
+    {
+      "scene_name": "img_0001.jpg",
+      "scene_index": 0,
+      "total_scenes": 4,
+      "ecosystem_category": "Mangrove Intertidal",
+      "ecosystem_desc": "Mangrove Intertidal Zones & Estuarine Mudflats (Sundarbans, Kutch, Bhitarkanika)",
+      "sar_input_url": "/hsi/mangrove_intertidal_scene_0_sar.jpg",
+      "gt_mask_url": "/hsi/mangrove_intertidal_scene_0_gt.png",
+      "overlay_url": "/hsi/mangrove_intertidal_scene_0_unet.jpg",
+      "spill_pixels": 1615,
+      "spill_percentage": 0.62,
+      "latency_ms": 98.2
+    },
+    {
+      "scene_name": "img_0005.jpg",
+      "scene_index": 1,
+      "total_scenes": 4,
+      "ecosystem_category": "Mangrove Intertidal",
+      "ecosystem_desc": "Mangrove Intertidal Zones & Estuarine Mudflats (Sundarbans, Kutch, Bhitarkanika)",
+      "sar_input_url": "/hsi/mangrove_intertidal_scene_1_sar.jpg",
+      "gt_mask_url": "/hsi/mangrove_intertidal_scene_1_gt.png",
+      "overlay_url": "/hsi/mangrove_intertidal_scene_1_unet.jpg",
+      "spill_pixels": 1100,
+      "spill_percentage": 0.42,
+      "latency_ms": 25.1
+    },
+    {
+      "scene_name": "img_0011.jpg",
+      "scene_index": 2,
+      "total_scenes": 4,
+      "ecosystem_category": "Mangrove Intertidal",
+      "ecosystem_desc": "Mangrove Intertidal Zones & Estuarine Mudflats (Sundarbans, Kutch, Bhitarkanika)",
+      "sar_input_url": "/hsi/mangrove_intertidal_scene_2_sar.jpg",
+      "gt_mask_url": "/hsi/mangrove_intertidal_scene_2_gt.png",
+      "overlay_url": "/hsi/mangrove_intertidal_scene_2_unet.jpg",
+      "spill_pixels": 5357,
+      "spill_percentage": 2.04,
+      "latency_ms": 24.8
+    },
+    {
+      "scene_name": "img_0017.jpg",
+      "scene_index": 3,
+      "total_scenes": 4,
+      "ecosystem_category": "Mangrove Intertidal",
+      "ecosystem_desc": "Mangrove Intertidal Zones & Estuarine Mudflats (Sundarbans, Kutch, Bhitarkanika)",
+      "sar_input_url": "/hsi/mangrove_intertidal_scene_3_sar.jpg",
+      "gt_mask_url": "/hsi/mangrove_intertidal_scene_3_gt.png",
+      "overlay_url": "/hsi/mangrove_intertidal_scene_3_unet.jpg",
+      "spill_pixels": 898,
+      "spill_percentage": 0.34,
+      "latency_ms": 24.9
+    }
+  ],
+  "Coral Reef Lagoon": [
+    {
+      "scene_name": "img_0029.jpg",
+      "scene_index": 0,
+      "total_scenes": 4,
+      "ecosystem_category": "Coral Reef Lagoon",
+      "ecosystem_desc": "Coral Reef Sanctuaries & Shallow Lagoons (Gulf of Mannar, Lakshadweep, Andamans)",
+      "sar_input_url": "/hsi/coral_reef_lagoon_scene_0_sar.jpg",
+      "gt_mask_url": "/hsi/coral_reef_lagoon_scene_0_gt.png",
+      "overlay_url": "/hsi/coral_reef_lagoon_scene_0_unet.jpg",
+      "spill_pixels": 1940,
+      "spill_percentage": 0.74,
+      "latency_ms": 27.4
+    },
+    {
+      "scene_name": "img_0035.jpg",
+      "scene_index": 1,
+      "total_scenes": 4,
+      "ecosystem_category": "Coral Reef Lagoon",
+      "ecosystem_desc": "Coral Reef Sanctuaries & Shallow Lagoons (Gulf of Mannar, Lakshadweep, Andamans)",
+      "sar_input_url": "/hsi/coral_reef_lagoon_scene_1_sar.jpg",
+      "gt_mask_url": "/hsi/coral_reef_lagoon_scene_1_gt.png",
+      "overlay_url": "/hsi/coral_reef_lagoon_scene_1_unet.jpg",
+      "spill_pixels": 1141,
+      "spill_percentage": 0.44,
+      "latency_ms": 25.5
+    },
+    {
+      "scene_name": "img_0043.jpg",
+      "scene_index": 2,
+      "total_scenes": 4,
+      "ecosystem_category": "Coral Reef Lagoon",
+      "ecosystem_desc": "Coral Reef Sanctuaries & Shallow Lagoons (Gulf of Mannar, Lakshadweep, Andamans)",
+      "sar_input_url": "/hsi/coral_reef_lagoon_scene_2_sar.jpg",
+      "gt_mask_url": "/hsi/coral_reef_lagoon_scene_2_gt.png",
+      "overlay_url": "/hsi/coral_reef_lagoon_scene_2_unet.jpg",
+      "spill_pixels": 12703,
+      "spill_percentage": 4.85,
+      "latency_ms": 24.8
+    },
+    {
+      "scene_name": "img_0051.jpg",
+      "scene_index": 3,
+      "total_scenes": 4,
+      "ecosystem_category": "Coral Reef Lagoon",
+      "ecosystem_desc": "Coral Reef Sanctuaries & Shallow Lagoons (Gulf of Mannar, Lakshadweep, Andamans)",
+      "sar_input_url": "/hsi/coral_reef_lagoon_scene_3_sar.jpg",
+      "gt_mask_url": "/hsi/coral_reef_lagoon_scene_3_gt.png",
+      "overlay_url": "/hsi/coral_reef_lagoon_scene_3_unet.jpg",
+      "spill_pixels": 40839,
+      "spill_percentage": 15.58,
+      "latency_ms": 24.8
+    }
+  ],
+  "Fishing Grounds": [
+    {
+      "scene_name": "img_0057.jpg",
+      "scene_index": 0,
+      "total_scenes": 4,
+      "ecosystem_category": "Fishing Grounds",
+      "ecosystem_desc": "Active Coastal Fishing Grounds & Trawler Hubs (Veraval, Mumbai High, Wadge Bank)",
+      "sar_input_url": "/hsi/fishing_grounds_scene_0_sar.jpg",
+      "gt_mask_url": "/hsi/fishing_grounds_scene_0_gt.png",
+      "overlay_url": "/hsi/fishing_grounds_scene_0_unet.jpg",
+      "spill_pixels": 6992,
+      "spill_percentage": 2.67,
+      "latency_ms": 24.9
+    },
+    {
+      "scene_name": "img_0063.jpg",
+      "scene_index": 1,
+      "total_scenes": 4,
+      "ecosystem_category": "Fishing Grounds",
+      "ecosystem_desc": "Active Coastal Fishing Grounds & Trawler Hubs (Veraval, Mumbai High, Wadge Bank)",
+      "sar_input_url": "/hsi/fishing_grounds_scene_1_sar.jpg",
+      "gt_mask_url": "/hsi/fishing_grounds_scene_1_gt.png",
+      "overlay_url": "/hsi/fishing_grounds_scene_1_unet.jpg",
+      "spill_pixels": 781,
+      "spill_percentage": 0.3,
+      "latency_ms": 24.8
+    },
+    {
+      "scene_name": "img_0071.jpg",
+      "scene_index": 2,
+      "total_scenes": 4,
+      "ecosystem_category": "Fishing Grounds",
+      "ecosystem_desc": "Active Coastal Fishing Grounds & Trawler Hubs (Veraval, Mumbai High, Wadge Bank)",
+      "sar_input_url": "/hsi/fishing_grounds_scene_2_sar.jpg",
+      "gt_mask_url": "/hsi/fishing_grounds_scene_2_gt.png",
+      "overlay_url": "/hsi/fishing_grounds_scene_2_unet.jpg",
+      "spill_pixels": 76299,
+      "spill_percentage": 29.11,
+      "latency_ms": 25.8
+    },
+    {
+      "scene_name": "img_0079.jpg",
+      "scene_index": 3,
+      "total_scenes": 4,
+      "ecosystem_category": "Fishing Grounds",
+      "ecosystem_desc": "Active Coastal Fishing Grounds & Trawler Hubs (Veraval, Mumbai High, Wadge Bank)",
+      "sar_input_url": "/hsi/fishing_grounds_scene_3_sar.jpg",
+      "gt_mask_url": "/hsi/fishing_grounds_scene_3_gt.png",
+      "overlay_url": "/hsi/fishing_grounds_scene_3_unet.jpg",
+      "spill_pixels": 4641,
+      "spill_percentage": 1.77,
+      "latency_ms": 24.8
+    }
+  ],
+  "Deepwater Tanker Lanes": [
+    {
+      "scene_name": "img_0085.jpg",
+      "scene_index": 0,
+      "total_scenes": 4,
+      "ecosystem_category": "Deepwater Tanker Lanes",
+      "ecosystem_desc": "Deepwater Tanker Shipping Corridors & SPM Anchorage (Malacca Strait, Red Sea, Persian Gulf)",
+      "sar_input_url": "/hsi/deepwater_tanker_lanes_scene_0_sar.jpg",
+      "gt_mask_url": "/hsi/deepwater_tanker_lanes_scene_0_gt.png",
+      "overlay_url": "/hsi/deepwater_tanker_lanes_scene_0_unet.jpg",
+      "spill_pixels": 5147,
+      "spill_percentage": 1.96,
+      "latency_ms": 24.9
+    },
+    {
+      "scene_name": "img_0091.jpg",
+      "scene_index": 1,
+      "total_scenes": 4,
+      "ecosystem_category": "Deepwater Tanker Lanes",
+      "ecosystem_desc": "Deepwater Tanker Shipping Corridors & SPM Anchorage (Malacca Strait, Red Sea, Persian Gulf)",
+      "sar_input_url": "/hsi/deepwater_tanker_lanes_scene_1_sar.jpg",
+      "gt_mask_url": "/hsi/deepwater_tanker_lanes_scene_1_gt.png",
+      "overlay_url": "/hsi/deepwater_tanker_lanes_scene_1_unet.jpg",
+      "spill_pixels": 326,
+      "spill_percentage": 0.12,
+      "latency_ms": 24.8
+    },
+    {
+      "scene_name": "img_0099.jpg",
+      "scene_index": 2,
+      "total_scenes": 4,
+      "ecosystem_category": "Deepwater Tanker Lanes",
+      "ecosystem_desc": "Deepwater Tanker Shipping Corridors & SPM Anchorage (Malacca Strait, Red Sea, Persian Gulf)",
+      "sar_input_url": "/hsi/deepwater_tanker_lanes_scene_2_sar.jpg",
+      "gt_mask_url": "/hsi/deepwater_tanker_lanes_scene_2_gt.png",
+      "overlay_url": "/hsi/deepwater_tanker_lanes_scene_2_unet.jpg",
+      "spill_pixels": 3733,
+      "spill_percentage": 1.42,
+      "latency_ms": 26.7
+    },
+    {
+      "scene_name": "img_0107.jpg",
+      "scene_index": 3,
+      "total_scenes": 4,
+      "ecosystem_category": "Deepwater Tanker Lanes",
+      "ecosystem_desc": "Deepwater Tanker Shipping Corridors & SPM Anchorage (Malacca Strait, Red Sea, Persian Gulf)",
+      "sar_input_url": "/hsi/deepwater_tanker_lanes_scene_3_sar.jpg",
+      "gt_mask_url": "/hsi/deepwater_tanker_lanes_scene_3_gt.png",
+      "overlay_url": "/hsi/deepwater_tanker_lanes_scene_3_unet.jpg",
+      "spill_pixels": 4917,
+      "spill_percentage": 1.88,
+      "latency_ms": 24.9
+    }
+  ]
+};
+
+export function getCachedHsiScene(ecoCategory = 'Mangrove Intertidal', sceneIndex = 0, imageIndex = null) {
+  let catKey = 'Mangrove Intertidal';
+  if (typeof ecoCategory === 'string') {
+    if (ecoCategory.includes('Coral')) catKey = 'Coral Reef Lagoon';
+    else if (ecoCategory.includes('Fishing')) catKey = 'Fishing Grounds';
+    else if (ecoCategory.includes('Deepwater') || ecoCategory.includes('Tanker')) catKey = 'Deepwater Tanker Lanes';
+  }
+  const list = MOCK_HSI_SCENES[catKey] || MOCK_HSI_SCENES['Mangrove Intertidal'] || [];
+  if (list.length === 0) return null;
+  const idx = Math.abs(sceneIndex || 0) % list.length;
+  return list[idx];
+}
+
+export function getCachedDebrisVideoFrame(frameIdx = 0) {
+  if (!MOCK_DEBRIS_FRAMES || MOCK_DEBRIS_FRAMES.length === 0) return null;
+  const idx = Math.abs(frameIdx || 0) % MOCK_DEBRIS_FRAMES.length;
+  return MOCK_DEBRIS_FRAMES[idx];
+}

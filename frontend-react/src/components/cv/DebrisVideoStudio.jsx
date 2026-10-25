@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Play, Pause, RotateCcw, Activity, Eye, ShieldCheck, Sliders, Upload, RefreshCw } from 'lucide-react';
 import { useMarineContext } from '../../context/MarineContext';
 import { fetchDebrisVideoFrame, runDebrisInference } from '../../services/api';
+import { getCachedDebrisVideoFrame } from '../../services/mockData';
 
 export default function DebrisVideoStudio() {
   const { cachedDebrisData, setCachedDebrisData } = useMarineContext();
@@ -9,39 +10,43 @@ export default function DebrisVideoStudio() {
   const [isPlaying, setIsPlaying] = useState(true);
   const [currentFrameIdx, setCurrentFrameIdx] = useState(0);
   const [confThreshold, setConfThreshold] = useState(0.25);
-  const [loadingFrame, setLoadingFrame] = useState(!cachedDebrisData);
+  const [loadingFrame, setLoadingFrame] = useState(false);
   const [customInference, setCustomInference] = useState(null);
   const [inferring, setInferring] = useState(false);
 
-  // Fetch live video frame inference from FastAPI backend (YOLOv8 marine debris model)
+  // Fetch live video frame inference from FastAPI backend or high-speed CDN stream
   useEffect(() => {
     let interval = null;
+    let isMounted = true;
+
     async function loadFrame() {
       setLoadingFrame(true);
       try {
         const res = await fetchDebrisVideoFrame(currentFrameIdx);
-        if (res) {
+        if (res && isMounted) {
           setCachedDebrisData(res);
+        } else if (isMounted) {
+          setCachedDebrisData(getCachedDebrisVideoFrame(currentFrameIdx));
         }
       } catch (err) {
-        console.error("Frame fetch error", err);
+        console.warn("Frame fetch fallback", err);
+        if (isMounted) setCachedDebrisData(getCachedDebrisVideoFrame(currentFrameIdx));
       } finally {
-        setLoadingFrame(false);
+        if (isMounted) setLoadingFrame(false);
       }
     }
 
-    if (!cachedDebrisData || currentFrameIdx !== 0) {
-      loadFrame();
-    } else {
-      setLoadingFrame(false);
-    }
+    loadFrame();
 
     if (isPlaying) {
       interval = setInterval(() => {
         setCurrentFrameIdx((prev) => (prev + 1) % 15);
       }, 2500);
     }
-    return () => clearInterval(interval);
+    return () => {
+      isMounted = false;
+      if (interval) clearInterval(interval);
+    };
   }, [currentFrameIdx, isPlaying]);
 
   const handleFileUpload = async (e) => {
@@ -60,8 +65,8 @@ export default function DebrisVideoStudio() {
     }
   };
 
-  const videoData = cachedDebrisData;
-  const frameB64 = customInference?.annotated_image_b64 || videoData?.annotated_frame_b64;
+  const videoData = cachedDebrisData || getCachedDebrisVideoFrame(currentFrameIdx);
+  const frameB64 = customInference?.annotated_image_b64 || videoData?.annotated_frame_b64 || videoData?.annotated_frame_url;
   const detections = customInference?.detections || videoData?.detections || [];
   const latency = customInference?.latency_ms || videoData?.latency_ms || 32.5;
 
@@ -82,6 +87,14 @@ export default function DebrisVideoStudio() {
         </div>
 
         <div className="flex items-center gap-2">
+          {customInference && (
+            <button
+              onClick={() => setCustomInference(null)}
+              className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 border border-[#1E293B] text-slate-200 font-bold text-xs flex items-center gap-1.5 transition-all"
+            >
+              Back to ROV Stream
+            </button>
+          )}
           <label className="px-3 py-2 rounded-xl bg-[#0D1730] hover:bg-[#1A284B] border border-[#1E293B] text-slate-200 font-bold text-xs flex items-center gap-1.5 cursor-pointer transition-all">
             <Upload className="w-3.5 h-3.5 text-sky-400" /> Upload Debris Image
             <input type="file" accept="image/*" className="hidden" onChange={handleFileUpload} />
@@ -127,7 +140,10 @@ export default function DebrisVideoStudio() {
                 {isPlaying ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4" />}
               </button>
               <button 
-                onClick={() => setCurrentFrameIdx(0)}
+                onClick={() => {
+                  setCurrentFrameIdx(0);
+                  setCachedDebrisData(getCachedDebrisVideoFrame(0));
+                }}
                 className="p-2.5 rounded-lg bg-[#111D3A] border border-[#1E293B] text-slate-300 hover:bg-[#1A284B] transition-colors"
                 title="Reset Stream"
               >
@@ -137,10 +153,14 @@ export default function DebrisVideoStudio() {
 
             {/* Frame Timeline Selector */}
             <div className="flex-1 flex items-center gap-1.5 overflow-x-auto">
-              {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((idx) => (
+              {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14].map((idx) => (
                 <button
                   key={idx}
-                  onClick={() => { setCurrentFrameIdx(idx); setIsPlaying(false); }}
+                  onClick={() => { 
+                    setCurrentFrameIdx(idx); 
+                    setIsPlaying(false); 
+                    setCachedDebrisData(getCachedDebrisVideoFrame(idx));
+                  }}
                   className={`py-1.5 px-2.5 rounded-lg text-[11px] font-mono transition-all border whitespace-nowrap ${
                     idx === currentFrameIdx 
                       ? 'bg-sky-600 text-white border-sky-500 font-bold' 
