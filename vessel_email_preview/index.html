@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Preview - MarineGuardian Navigational Dispatch</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #080e1e;
+      color: #e2e8f0;
+      padding: 24px;
+      line-height: 1.5;
+    }
+
+    /* Top Notice Banner for Easy Deletion */
+    .top-notice {
+      max-width: 760px;
+      margin: 0 auto 16px auto;
+      background: #1e1b4b;
+      border: 1px dashed #6366f1;
+      border-radius: 10px;
+      padding: 12px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 13px;
+      color: #c7d2fe;
+    }
+
+    .top-notice strong {
+      color: #a5b4fc;
+    }
+
+    .top-notice code {
+      background: #0f172a;
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #38bdf8;
+      font-family: monospace;
+    }
+
+    /* Mock Email Client Window */
+    .mail-client {
+      max-width: 760px;
+      margin: 0 auto;
+      background: #0f172a;
+      border: 1px solid #1e293b;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Client Header Bar */
+    .mail-client-header {
+      background: #1e293b;
+      padding: 12px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #334155;
+      font-size: 12px;
+      color: #94a3b8;
+    }
+
+    .window-dots {
+      display: flex;
+      gap: 6px;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+
+    .dot-red { background: #ef4444; }
+    .dot-yellow { background: #eab308; }
+    .dot-green { background: #22c55e; }
+
+    /* Email Metadata Header */
+    .mail-meta {
+      padding: 20px 24px;
+      background: #0b1329;
+      border-bottom: 1px solid #1e293b;
+    }
+
+    .mail-subject {
+      font-size: 18px;
+      font-weight: 700;
+      color: #f8fafc;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .badge-alert {
+      background: #ef4444;
+      color: #ffffff;
+      font-size: 10px;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .meta-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      font-size: 13px;
+      color: #94a3b8;
+      gap: 12px;
+    }
+
+    .sender-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .avatar {
+      width: 40px;
+      height: 40px;
+      background: #0284c7;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .sender-details {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .sender-name {
+      font-weight: 700;
+      color: #f1f5f9;
+      font-size: 14px;
+    }
+
+    .sender-email {
+      color: #64748b;
+      font-size: 12px;
+    }
+
+    .recipient-info {
+      font-size: 12px;
+      color: #94a3b8;
+      margin-top: 4px;
+    }
+
+    .recipient-highlight {
+      color: #38bdf8;
+      font-weight: 600;
+      background: #0c4a6e33;
+      padding: 1px 6px;
+      border-radius: 4px;
+      border: 1px solid #0284c744;
+    }
+
+    .timestamp {
+      font-size: 11px;
+      color: #64748b;
+      font-family: monospace;
+      white-space: nowrap;
+    }
+
+    /* Email Body Viewport */
+    .mail-body-container {
+      padding: 24px;
+      background: #060b17;
+    }
+
+    /* =======================================================
+       EXACT EMBEDDED EMAIL DISPATCH TEMPLATE STYLING
+       Matches backend/services/email_alert_service.py
+       ======================================================= */
+    .email-wrapper {
+      max-width: 650px;
+      margin: 0 auto;
+      background: #111d3a;
+      border: 1px solid #1e293b;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
+
+    .email-header {
+      background: #0d1730;
+      padding: 20px;
+      border-bottom: 2px solid #ef4444;
+    }
+
+    .email-header h1 {
+      margin: 0;
+      font-size: 18px;
+      color: #f8fafc;
+      letter-spacing: 0.5px;
+    }
+
+    .badge-hazard {
+      display: inline-block;
+      background: #7f1d1d;
+      color: #fca5a5;
+      border: 1px solid #dc2626;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      font-size: 11px;
+      font-weight: bold;
+      font-family: monospace;
+      text-transform: uppercase;
+      margin-top: 8px;
+    }
+
+    .proto-banner {
+      background: #1e3a8a;
+      border: 1px solid #3b82f6;
+      border-radius: 8px;
+      padding: 12px 14px;
+      margin-bottom: 18px;
+      font-size: 12px;
+      color: #bfdbfe;
+      font-family: monospace;
+      line-height: 1.5;
+    }
+
+    .email-content {
+      padding: 24px;
+    }
+
+    .vessel-card {
+      background: #0d1730;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 20px;
+    }
+
+    .vessel-name {
+      font-size: 17px;
+      font-weight: bold;
+      color: #38bdf8;
+    }
+
+    .vessel-meta {
+      font-size: 12px;
+      font-family: monospace;
+      color: #94a3b8;
+      margin-top: 4px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .metric-box {
+      background: #152243;
+      padding: 10px 12px;
+      border-radius: 8px;
+      border: 1px solid #1e293b;
+    }
+
+    .metric-label {
+      font-size: 10px;
+      font-family: monospace;
+      color: #94a3b8;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .metric-val {
+      font-size: 14px;
+      font-weight: bold;
+      color: #f8fafc;
+      margin-top: 2px;
+    }
+
+    .text-hazard { color: #f87171; }
+    .text-safe { color: #34d399; }
+    .text-accent { color: #38bdf8; }
+
+    .section-title {
+      font-size: 12px;
+      font-weight: bold;
+      color: #cbd5e1;
+      text-transform: uppercase;
+      font-family: monospace;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      letter-spacing: 0.5px;
+      border-bottom: 1px solid #1e293b;
+      padding-bottom: 4px;
+    }
+
+    .routing-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+
+    .routing-table td {
+      padding: 8px 10px;
+      border-bottom: 1px solid #1e293b;
+    }
+
+    .routing-table td:first-child {
+      color: #94a3b8;
+      width: 38%;
+      font-family: monospace;
+    }
+
+    .routing-table td:last-child {
+      color: #f8fafc;
+      font-weight: bold;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #0284c7;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 12px;
+      margin-top: 20px;
+      text-align: center;
+      transition: background 0.2s;
+    }
+
+    .btn:hover {
+      background: #0369a1;
+    }
+
+    .email-footer {
+      background: #0d1730;
+      padding: 16px 20px;
+      border-top: 1px solid #1e293b;
+      font-size: 11px;
+      font-family: monospace;
+      color: #64748b;
+      text-align: center;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Helper Banner for easy disposal -->
+  <div class="top-notice">
+    <div>
+      📁 <strong>TEMPORARY EMAIL PREVIEW FOLDER:</strong>
+      <span>This file is in <code>/vessel_email_preview/</code>. You can delete this entire folder after viewing.</span>
+    </div>
+    <span style="font-size: 11px; color: #a5b4fc;">Single File &bull; No Dependencies</span>
+  </div>
+
+  <!-- Simulated Email Client Container -->
+  <div class="mail-client">
+    
+    <!-- Client Top Bar -->
+    <div class="mail-client-header">
+      <div class="window-dots">
+        <div class="dot dot-red"></div>
+        <div class="dot dot-yellow"></div>
+        <div class="dot dot-green"></div>
+      </div>
+      <div>MarineGuardian Mail Dispatcher &bull; Secure Protocol (TLS)</div>
+      <div style="font-family: monospace;">Inbox (1 New Dispatch)</div>
+    </div>
+
+    <!-- Email Metadata Header -->
+    <div class="mail-meta">
+      <div class="mail-subject">
+        <span class="badge-alert">PRIORITY 1</span>
+        [PROTOTYPE DISPATCH] COSCO DEVELOPMENT (MMSI: 413374000) | Kandla ➔ Fujairah | Severe Weather Detour Active
+      </div>
+      <div class="meta-row">
+        <div class="sender-info">
+          <div class="avatar">MG</div>
+          <div class="sender-details">
+            <div class="sender-name">MarineGuardian Maritime Command</div>
+            <div class="sender-email">&lt;noreply@marineguardian.org&gt; via smtp.marineguardian.org</div>
+            <div class="recipient-info">
+              To: <span class="recipient-highlight">zameershaikh17112006@gmail.com</span>
+              &bull; <span style="color: #64748b;">(All simulated roles routed to your prototype inbox)</span>
+            </div>
+          </div>
+        </div>
+        <div class="timestamp">
+          Today, 19:52 UTC<br>
+          <span style="color: #10b981;">● Verified Delivery</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Email Body Viewport -->
+    <div class="mail-body-container">
+      
+      <!-- ============================================== -->
+      <!-- EXACT EMAIL HTML DISPATCH BODY SENT TO INBOX -->
+      <!-- ============================================== -->
+      <div class="email-wrapper">
+        <div class="email-header">
+          <h1>⚠️ MARITIME COMMAND NAVIGATIONAL DISPATCH</h1>
+          <div class="badge-hazard">SEVERE WEATHER HAZARD ALERT &bull; SEA HALT CEILING BREACH</div>
+        </div>
+
+        <div class="email-content">
+          <!-- Prototype Master Delivery Notice -->
+          <div class="proto-banner">
+            🛡️ <strong>PROTOTYPE DEMONSTRATION DISPATCH</strong><br>
+            Delivered directly to: <strong>zameershaikh17112006@gmail.com</strong><br>
+            Simulating multi-party dispatch for Vessel <strong>COSCO DEVELOPMENT</strong> Bridge, Departure Port (<strong>Kandla</strong>), and Arrival Port (<strong>Fujairah</strong>).<br>
+            <em>Note: No official port or maritime authorities are contacted.</em>
+          </div>
+
+          <p style="font-size: 13px; line-height: 1.5; color: #cbd5e1; margin-top: 0;">
+            This prototype navigational alert represents a simulated multi-party dispatch for <strong>COSCO DEVELOPMENT</strong> and passage corridors. Hydrodynamic sea conditions exceed safe navigational thresholds.
+          </p>
+
+          <!-- Vessel Telematics Card -->
+          <div class="vessel-card">
+            <div class="vessel-name">🇨🇳 COSCO DEVELOPMENT</div>
+            <div class="vessel-meta">MMSI: 413374000 &bull; SOG: 14.2 kn &bull; COG: 210.0&deg; &bull; POS: 18.9220&deg;N, 72.8347&deg;E</div>
+            
+            <div class="grid">
+              <div class="metric-box">
+                <div class="metric-label">Observed Wave Swell</div>
+                <div class="metric-val text-hazard">3.40 m <span style="font-size: 10px; color: #94a3b8;">(Ceiling: 2.8m)</span></div>
+              </div>
+              <div class="metric-box">
+                <div class="metric-label">Surface Gale Wind</div>
+                <div class="metric-val text-hazard">45.0 km/h</div>
+              </div>
+              <div class="metric-box">
+                <div class="metric-label">AI Seaward Bypass</div>
+                <div class="metric-val text-accent">+18.2 nm Offset</div>
+              </div>
+              <div class="metric-box">
+                <div class="metric-label">Arrival Adjustment</div>
+                <div class="metric-val text-hazard">+2.3 hrs ETA Delay</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Corridors & Simulated Stakeholders -->
+          <div class="section-title">Voyage Corridors &amp; Simulated Stakeholders</div>
+          <table class="routing-table">
+            <tr>
+              <td>Target Vessel Bridge:</td>
+              <td>COSCO DEVELOPMENT &bull; <span style="color: #38bdf8; font-weight: normal;">Simulated Bridge Role (routed strictly to zameershaikh17112006@gmail.com)</span></td>
+            </tr>
+            <tr>
+              <td>Departure Port (Start):</td>
+              <td>Kandla &bull; <span style="color: #38bdf8; font-weight: normal;">Simulated Departure Port Role (routed strictly to zameershaikh17112006@gmail.com)</span></td>
+            </tr>
+            <tr>
+              <td>Destination Port (Arrival):</td>
+              <td>Fujairah &bull; <span style="color: #38bdf8; font-weight: normal;">Simulated Destination Port Role (routed strictly to zameershaikh17112006@gmail.com)</span></td>
+            </tr>
+            <tr>
+              <td>Emergency Safe Shelter:</td>
+              <td>Mormugao Base (42.0 nm, ETA: 2.9h) &bull; <span style="color: #38bdf8; font-weight: normal;">Simulated Safe Harbor Role (routed strictly to zameershaikh17112006@gmail.com)</span></td>
+            </tr>
+          </table>
+
+          <!-- Navigational Action Summary -->
+          <div class="section-title">Navigational Action Summary</div>
+          <p style="font-size: 12px; line-height: 1.6; color: #cbd5e1;">
+            1. <strong>Vessel Master:</strong> Alter course along the AI Seaward Detour corridor with a minimum 18.2 nm seaward buffer to bypass high swell focus.<br>
+            2. <strong>Start Port Control (Kandla):</strong> Vessel departure log amended. Heavy weather passage advisory confirmed.<br>
+            3. <strong>Destination Port Control (Fujairah):</strong> Berth arrival window adjusted by +2.3 hours.<br>
+            4. <strong>Emergency Harbor (Mormugao Base):</strong> Standing by on VHF Ch 16 for emergency basin entry if conditions deteriorate.
+          </p>
+
+          <div style="text-align: center;">
+            <a href="http://localhost:5173/fleet?mmsi=413374000" target="_blank" class="btn">View Live Telematics &amp; Detour GIS Corridor</a>
+          </div>
+        </div>
+
+        <div class="email-footer">
+          MarineGuardian Autonomous Maritime Safety Platform &bull; Dispatch ID: NAVWARN-413374000-1791727078<br>
+          Transmission Timestamp: 2026-10-11 19:52:31 UTC &bull; Recipient: zameershaikh17112006@gmail.com
+        </div>
+      </div>
+      <!-- ============================================== -->
+
+    </div>
+  </div>
+
+</body>
+</html>

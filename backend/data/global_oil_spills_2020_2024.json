@@ -1,0 +1,4906 @@
+{
+  "type": "FeatureCollection",
+  "name": "Global_SkyTruth_Sentinel1_Oil_Spills_2020_2024_100Events",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0046",
+        "name": "Mumbai High North Offshore Asset Slick",
+        "region": "1. Indian West Coast (Arabian Sea)",
+        "time_detection": "2024-05-14 11:03:16",
+        "length_km": 15,
+        "area_km2": 37.8,
+        "lat": 19.418,
+        "lon": 72.73,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240514T110316_001702_068B12_036A",
+        "eez": "India",
+        "flag_code": "IND",
+        "mmsi": "419001236",
+        "imo": "9797319",
+        "vessel_name": "Jsw Raigad",
+        "vessel_type": "Cargo",
+        "nearby_mpa": "Malvan Marine Sanctuary",
+        "img_idx": 46
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.65,
+              19.378
+            ],
+            [
+              72.82,
+              19.398
+            ],
+            [
+              72.79,
+              19.468
+            ],
+            [
+              72.66,
+              19.448
+            ],
+            [
+              72.65,
+              19.378
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0013",
+        "name": "Gulf of Kutch SPM Anchorage Slick",
+        "region": "1. Indian West Coast (Arabian Sea)",
+        "time_detection": "2024-06-02 08:45:22",
+        "length_km": 12,
+        "area_km2": 29.4,
+        "lat": 22.48,
+        "lon": 69.7,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240602T084522_000481_068B12_00F7",
+        "eez": "India",
+        "flag_code": "LBR",
+        "mmsi": "636019500",
+        "imo": "9452010",
+        "vessel_name": "Hellas Fos",
+        "vessel_type": "Crude Oil Tanker",
+        "nearby_mpa": "Marine National Park, Gulf of Kutch",
+        "img_idx": 13
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              69.62,
+              22.44
+            ],
+            [
+              69.79,
+              22.46
+            ],
+            [
+              69.76,
+              22.53
+            ],
+            [
+              69.63,
+              22.51
+            ],
+            [
+              69.62,
+              22.44
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0055",
+        "name": "Veraval Offshore Trawler Bunkering Slick",
+        "region": "1. Indian West Coast (Arabian Sea)",
+        "time_detection": "2024-03-11 14:20:10",
+        "length_km": 8,
+        "area_km2": 18.5,
+        "lat": 20.91,
+        "lon": 70.36,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240311T142010_002035_068B12_0415",
+        "eez": "India",
+        "flag_code": "IND",
+        "mmsi": "419000450",
+        "imo": "9123456",
+        "vessel_name": "Sagar Ratna",
+        "vessel_type": "Offshore Supply",
+        "nearby_mpa": "Gir Coastal Sanctuary",
+        "img_idx": 55
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.28,
+              20.87
+            ],
+            [
+              70.45,
+              20.89
+            ],
+            [
+              70.42,
+              20.96
+            ],
+            [
+              70.29,
+              20.94
+            ],
+            [
+              70.28,
+              20.87
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0142",
+        "name": "Kochi Outer Anchorage Bunker Discharge",
+        "region": "1. Indian West Coast (Arabian Sea)",
+        "time_detection": "2023-11-04 16:30:45",
+        "length_km": 10,
+        "area_km2": 22.1,
+        "lat": 9.93,
+        "lon": 76.15,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231104T163045_005254_068B12_0A8A",
+        "eez": "India",
+        "flag_code": "PAN",
+        "mmsi": "352001400",
+        "imo": "9384567",
+        "vessel_name": "Pacific Pearl",
+        "vessel_type": "Chemical Tanker",
+        "nearby_mpa": "Vembanad Ramsar Wetland",
+        "img_idx": 142
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.07,
+              9.89
+            ],
+            [
+              76.24,
+              9.91
+            ],
+            [
+              76.21,
+              9.98
+            ],
+            [
+              76.08,
+              9.96
+            ],
+            [
+              76.07,
+              9.89
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0088",
+        "name": "Mormugao Deepwater Iron Ore Silt & Fuel Weep",
+        "region": "1. Indian West Coast (Arabian Sea)",
+        "time_detection": "2023-08-19 09:12:00",
+        "length_km": 7,
+        "area_km2": 16.2,
+        "lat": 15.41,
+        "lon": 73.78,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230819T091200_003256_068B12_0688",
+        "eez": "India",
+        "flag_code": "MHL",
+        "mmsi": "538007200",
+        "imo": "9654321",
+        "vessel_name": "Bulk Carrier Goa",
+        "vessel_type": "Bulk Carrier",
+        "nearby_mpa": "Grande Island Coral Reef",
+        "img_idx": 88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7,
+              15.37
+            ],
+            [
+              73.87,
+              15.39
+            ],
+            [
+              73.84,
+              15.46
+            ],
+            [
+              73.71,
+              15.44
+            ],
+            [
+              73.7,
+              15.37
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0089",
+        "name": "Paradip Port SPM Deepsea Offloading Slick",
+        "region": "2. Indian East Coast (Bay of Bengal)",
+        "time_detection": "2024-03-18 10:15:30",
+        "length_km": 14,
+        "area_km2": 31.6,
+        "lat": 20.25,
+        "lon": 86.72,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240318T101530_003293_068B12_069B",
+        "eez": "India",
+        "flag_code": "IND",
+        "mmsi": "419002100",
+        "imo": "9543210",
+        "vessel_name": "Desh Shanti",
+        "vessel_type": "Crude Oil Tanker",
+        "nearby_mpa": "Gahirmatha Turtle Sanctuary",
+        "img_idx": 89
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.64,
+              20.21
+            ],
+            [
+              86.81,
+              20.23
+            ],
+            [
+              86.78,
+              20.3
+            ],
+            [
+              86.65,
+              20.28
+            ],
+            [
+              86.64,
+              20.21
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0512",
+        "name": "Krishna-Godavari KG-D6 Deepwater Seep",
+        "region": "2. Indian East Coast (Bay of Bengal)",
+        "time_detection": "2023-10-11 13:40:00",
+        "length_km": 11,
+        "area_km2": 26.8,
+        "lat": 16.5,
+        "lon": 82.55,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231011T134000_018944_068B12_2600",
+        "eez": "India",
+        "flag_code": "SGP",
+        "mmsi": "563004500",
+        "imo": "9687410",
+        "vessel_name": "Deepwater Frontier",
+        "vessel_type": "Drillship",
+        "nearby_mpa": "Coringa Mangrove Sanctuary",
+        "img_idx": 512
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.47,
+              16.46
+            ],
+            [
+              82.64,
+              16.48
+            ],
+            [
+              82.61,
+              16.55
+            ],
+            [
+              82.48,
+              16.53
+            ],
+            [
+              82.47,
+              16.46
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0012",
+        "name": "Haldia Dock Approach Tanker Discharge",
+        "region": "2. Indian East Coast (Bay of Bengal)",
+        "time_detection": "2023-07-19 06:55:12",
+        "length_km": 13,
+        "area_km2": 34.0,
+        "lat": 21.75,
+        "lon": 88.05,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230719T065512_000444_068B12_00E4",
+        "eez": "India",
+        "flag_code": "BGD",
+        "mmsi": "405000120",
+        "imo": "9234567",
+        "vessel_name": "Banglar Shourabh",
+        "vessel_type": "Product Tanker",
+        "nearby_mpa": "Sundarbans Biosphere Reserve",
+        "img_idx": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.97,
+              21.71
+            ],
+            [
+              88.14,
+              21.73
+            ],
+            [
+              88.11,
+              21.8
+            ],
+            [
+              87.98,
+              21.78
+            ],
+            [
+              87.97,
+              21.71
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0230",
+        "name": "Chennai Port Outer Bunkering Overfill",
+        "region": "2. Indian East Coast (Bay of Bengal)",
+        "time_detection": "2024-01-15 15:10:20",
+        "length_km": 9,
+        "area_km2": 21.5,
+        "lat": 13.09,
+        "lon": 80.3,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240115T151020_008510_068B12_1112",
+        "eez": "India",
+        "flag_code": "PAN",
+        "mmsi": "351000890",
+        "imo": "9456789",
+        "vessel_name": "Dawn Kanchipuram",
+        "vessel_type": "Chemical Tanker",
+        "nearby_mpa": "Pulicat Bird Sanctuary",
+        "img_idx": 230
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.22,
+              13.05
+            ],
+            [
+              80.39,
+              13.07
+            ],
+            [
+              80.36,
+              13.14
+            ],
+            [
+              80.23,
+              13.12
+            ],
+            [
+              80.22,
+              13.05
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0095",
+        "name": "Dhamra Port Bulk Carrier Ballast Slick",
+        "region": "2. Indian East Coast (Bay of Bengal)",
+        "time_detection": "2024-04-20 12:05:44",
+        "length_km": 10,
+        "area_km2": 24.5,
+        "lat": 20.82,
+        "lon": 86.98,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240420T120544_003515_068B12_070D",
+        "eez": "India",
+        "flag_code": "IND",
+        "mmsi": "419000950",
+        "imo": "9345678",
+        "vessel_name": "Mahanadi Pride",
+        "vessel_type": "Bulk Carrier",
+        "nearby_mpa": "Bhitarkanika Mangroves",
+        "img_idx": 95
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.9,
+              20.78
+            ],
+            [
+              87.07,
+              20.8
+            ],
+            [
+              87.04,
+              20.87
+            ],
+            [
+              86.91,
+              20.85
+            ],
+            [
+              86.9,
+              20.78
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0810",
+        "name": "Great Nicobar Ten Degree Channel Trail",
+        "region": "3. Island Territories (Andaman & Lakshadweep)",
+        "time_detection": "2024-02-14 04:30:10",
+        "length_km": 22,
+        "area_km2": 58.7,
+        "lat": 7.02,
+        "lon": 93.95,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240214T043010_029970_068B12_3C1E",
+        "eez": "India",
+        "flag_code": "LBR",
+        "mmsi": "636006000",
+        "imo": "9876543",
+        "vessel_name": "Ocean Crown",
+        "vessel_type": "Crude Oil Tanker",
+        "nearby_mpa": "Great Nicobar Biosphere Reserve",
+        "img_idx": 810
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              93.87,
+              6.98
+            ],
+            [
+              94.04,
+              7.0
+            ],
+            [
+              94.01,
+              7.07
+            ],
+            [
+              93.88,
+              7.05
+            ],
+            [
+              93.87,
+              6.98
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0143",
+        "name": "Port Blair Naval Anchorage Fuel Weepage",
+        "region": "3. Island Territories (Andaman & Lakshadweep)",
+        "time_detection": "2023-12-08 17:45:00",
+        "length_km": 8,
+        "area_km2": 18.4,
+        "lat": 11.65,
+        "lon": 92.75,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231208T174500_005291_068B12_0A9D",
+        "eez": "India",
+        "flag_code": "IND",
+        "mmsi": "419000330",
+        "imo": "9123890",
+        "vessel_name": "INS Cheetah Support",
+        "vessel_type": "Offshore Tug",
+        "nearby_mpa": "Mahatma Gandhi Marine Park",
+        "img_idx": 143
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              92.67,
+              11.61
+            ],
+            [
+              92.84,
+              11.63
+            ],
+            [
+              92.81,
+              11.7
+            ],
+            [
+              92.68,
+              11.68
+            ],
+            [
+              92.67,
+              11.61
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0680",
+        "name": "Nine Degree Channel VLCC Bilge Streak",
+        "region": "3. Island Territories (Andaman & Lakshadweep)",
+        "time_detection": "2024-01-22 08:20:15",
+        "length_km": 16,
+        "area_km2": 41.3,
+        "lat": 9.15,
+        "lon": 73.1,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240122T082015_025160_068B12_3278",
+        "eez": "India",
+        "flag_code": "PAN",
+        "mmsi": "354001200",
+        "imo": "9765432",
+        "vessel_name": "Cosmo Fortune",
+        "vessel_type": "Crude Oil Tanker",
+        "nearby_mpa": "Pitti Island Coral Atoll",
+        "img_idx": 680
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.02,
+              9.11
+            ],
+            [
+              73.19,
+              9.13
+            ],
+            [
+              73.16,
+              9.2
+            ],
+            [
+              73.03,
+              9.18
+            ],
+            [
+              73.02,
+              9.11
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0376",
+        "name": "Kavaratti Lagoon Diesel Bunkering Sheen",
+        "region": "3. Island Territories (Andaman & Lakshadweep)",
+        "time_detection": "2023-09-29 11:15:33",
+        "length_km": 6,
+        "area_km2": 12.0,
+        "lat": 10.56,
+        "lon": 72.63,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230929T111533_013912_068B12_1BE8",
+        "eez": "India",
+        "flag_code": "IND",
+        "mmsi": "419000770",
+        "imo": "9456123",
+        "vessel_name": "Coral Queen Ferry",
+        "vessel_type": "Passenger Cargo",
+        "nearby_mpa": "Lakshadweep Atoll Reserve",
+        "img_idx": 376
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.55,
+              10.52
+            ],
+            [
+              72.72,
+              10.54
+            ],
+            [
+              72.69,
+              10.61
+            ],
+            [
+              72.56,
+              10.59
+            ],
+            [
+              72.55,
+              10.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0681",
+        "name": "Diglipur North Sentinel Coastal Slick",
+        "region": "3. Island Territories (Andaman & Lakshadweep)",
+        "time_detection": "2024-05-01 14:00:50",
+        "length_km": 11,
+        "area_km2": 23.6,
+        "lat": 13.26,
+        "lon": 92.97,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240501T140050_025197_068B12_328B",
+        "eez": "India",
+        "flag_code": "MMR",
+        "mmsi": "506000450",
+        "imo": "9321456",
+        "vessel_name": "Ayeyarwady Star",
+        "vessel_type": "General Cargo",
+        "nearby_mpa": "North Reef Sanctuary",
+        "img_idx": 681
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              92.89,
+              13.22
+            ],
+            [
+              93.06,
+              13.24
+            ],
+            [
+              93.03,
+              13.31
+            ],
+            [
+              92.9,
+              13.29
+            ],
+            [
+              92.89,
+              13.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0143",
+        "name": "MV Wakashio Bulk Carrier Grounding",
+        "region": "4. Northern Indian Ocean & Sri Lanka",
+        "time_detection": "2020-08-06 16:30:00",
+        "length_km": 18,
+        "area_km2": 28.5,
+        "lat": -20.44,
+        "lon": 57.75,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20200806T163000_005291_068B12_0A9D",
+        "eez": "Mauritius",
+        "flag_code": "PAN",
+        "mmsi": "371917000",
+        "imo": "9337119",
+        "vessel_name": "Wakashio",
+        "vessel_type": "Bulk Carrier",
+        "nearby_mpa": "Blue Bay Marine Park",
+        "img_idx": 143
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              57.67,
+              -20.48
+            ],
+            [
+              57.84,
+              -20.46
+            ],
+            [
+              57.81,
+              -20.39
+            ],
+            [
+              57.68,
+              -20.41
+            ],
+            [
+              57.67,
+              -20.48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0230",
+        "name": "New Diamond VLCC Tanker Fire & Spill",
+        "region": "4. Northern Indian Ocean & Sri Lanka",
+        "time_detection": "2020-09-03 07:15:20",
+        "length_km": 20,
+        "area_km2": 45.2,
+        "lat": 7.45,
+        "lon": 81.95,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20200903T071520_008510_068B12_1112",
+        "eez": "Sri Lanka",
+        "flag_code": "PAN",
+        "mmsi": "356066000",
+        "imo": "9212852",
+        "vessel_name": "New Diamond",
+        "vessel_type": "Crude Oil Tanker",
+        "nearby_mpa": "Pigeon Island Marine Park",
+        "img_idx": 230
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              81.87,
+              7.41
+            ],
+            [
+              82.04,
+              7.43
+            ],
+            [
+              82.01,
+              7.5
+            ],
+            [
+              81.88,
+              7.48
+            ],
+            [
+              81.87,
+              7.41
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0376",
+        "name": "X-Press Pearl Container Cargo Bunker Disaster",
+        "region": "4. Northern Indian Ocean & Sri Lanka",
+        "time_detection": "2021-05-20 09:40:15",
+        "length_km": 25,
+        "area_km2": 52.0,
+        "lat": 6.98,
+        "lon": 79.8,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20210520T094015_013912_068B12_1BE8",
+        "eez": "Sri Lanka",
+        "flag_code": "SGP",
+        "mmsi": "563060000",
+        "imo": "9875343",
+        "vessel_name": "X-Press Pearl",
+        "vessel_type": "Container Ship",
+        "nearby_mpa": "Negombo Lagoon Wetland",
+        "img_idx": 376
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.72,
+              6.94
+            ],
+            [
+              79.89,
+              6.96
+            ],
+            [
+              79.86,
+              7.03
+            ],
+            [
+              79.73,
+              7.01
+            ],
+            [
+              79.72,
+              6.94
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0513",
+        "name": "Maldives Southern Channel Supertanker Streak",
+        "region": "4. Northern Indian Ocean & Sri Lanka",
+        "time_detection": "2024-03-22 05:10:00",
+        "length_km": 15,
+        "area_km2": 36.8,
+        "lat": 3.2,
+        "lon": 73.5,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240322T051000_018981_068B12_2613",
+        "eez": "Maldives",
+        "flag_code": "MHL",
+        "mmsi": "538008100",
+        "imo": "9654789",
+        "vessel_name": "Arabian Sea Glory",
+        "vessel_type": "Crude Oil Tanker",
+        "nearby_mpa": "Ari Atoll Marine Sanctuary",
+        "img_idx": 513
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.42,
+              3.16
+            ],
+            [
+              73.59,
+              3.18
+            ],
+            [
+              73.56,
+              3.25
+            ],
+            [
+              73.43,
+              3.23
+            ],
+            [
+              73.42,
+              3.16
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0951",
+        "name": "Wadge Bank High-Productivity Fishery Slick",
+        "region": "4. Northern Indian Ocean & Sri Lanka",
+        "time_detection": "2023-10-18 13:25:40",
+        "length_km": 12,
+        "area_km2": 27.4,
+        "lat": 7.8,
+        "lon": 77.4,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231018T132540_035187_068B12_4695",
+        "eez": "India",
+        "flag_code": "IND",
+        "mmsi": "419001550",
+        "imo": "9412356",
+        "vessel_name": "Cape Comorin Trawler",
+        "vessel_type": "Fishing Vessel",
+        "nearby_mpa": "Gulf of Mannar Biosphere",
+        "img_idx": 951
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.32,
+              7.76
+            ],
+            [
+              77.49,
+              7.78
+            ],
+            [
+              77.46,
+              7.85
+            ],
+            [
+              77.33,
+              7.83
+            ],
+            [
+              77.32,
+              7.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0681",
+        "name": "Ras Tanura Offshore Platform Cluster Seepage",
+        "region": "5. Persian Gulf (Northern & Central)",
+        "time_detection": "2023-07-22 10:45:00",
+        "length_km": 19,
+        "area_km2": 48.9,
+        "lat": 26.82,
+        "lon": 50.3,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230722T104500_025197_068B12_328B",
+        "eez": "Saudi Arabia",
+        "flag_code": "SAU",
+        "mmsi": "403001200",
+        "imo": "9541230",
+        "vessel_name": "Aramco Marine #14",
+        "vessel_type": "Offshore Platform",
+        "nearby_mpa": "Jubail Marine Sanctuary",
+        "img_idx": 681
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              50.22,
+              26.78
+            ],
+            [
+              50.39,
+              26.8
+            ],
+            [
+              50.36,
+              26.87
+            ],
+            [
+              50.23,
+              26.85
+            ],
+            [
+              50.22,
+              26.78
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0811",
+        "name": "Al-Khafji Neutral Zone Pipeline Leak",
+        "region": "5. Persian Gulf (Northern & Central)",
+        "time_detection": "2023-08-19 14:20:10",
+        "length_km": 14,
+        "area_km2": 35.1,
+        "lat": 28.45,
+        "lon": 48.75,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230819T142010_030007_068B12_3C31",
+        "eez": "Kuwait",
+        "flag_code": "KWT",
+        "mmsi": "447000340",
+        "imo": "9345612",
+        "vessel_name": "Al-Khafji Field Asset",
+        "vessel_type": "Production Platform",
+        "nearby_mpa": "Kubbar Island Coral Reef",
+        "img_idx": 811
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.67,
+              28.41
+            ],
+            [
+              48.84,
+              28.43
+            ],
+            [
+              48.81,
+              28.5
+            ],
+            [
+              48.68,
+              28.48
+            ],
+            [
+              48.67,
+              28.41
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0231",
+        "name": "Safaniya Giant Offshore Field Seepage",
+        "region": "5. Persian Gulf (Northern & Central)",
+        "time_detection": "2024-02-11 08:30:25",
+        "length_km": 16,
+        "area_km2": 39.0,
+        "lat": 28.0,
+        "lon": 49.0,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240211T083025_008547_068B12_1125",
+        "eez": "Saudi Arabia",
+        "flag_code": "SAU",
+        "mmsi": "403000880",
+        "imo": "9654123",
+        "vessel_name": "Safaniya Rig Charlie",
+        "vessel_type": "Offshore Platform",
+        "nearby_mpa": "Karan Island Coral Reserve",
+        "img_idx": 231
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.92,
+              27.96
+            ],
+            [
+              49.09,
+              27.98
+            ],
+            [
+              49.06,
+              28.05
+            ],
+            [
+              48.93,
+              28.03
+            ],
+            [
+              48.92,
+              27.96
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0375",
+        "name": "Kharg Island Terminal Tanker Offload Plume",
+        "region": "5. Persian Gulf (Northern & Central)",
+        "time_detection": "2023-12-05 16:15:00",
+        "length_km": 18,
+        "area_km2": 44.5,
+        "lat": 29.25,
+        "lon": 50.3,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231205T161500_013875_068B12_1BD5",
+        "eez": "Iran",
+        "flag_code": "IRN",
+        "mmsi": "422000560",
+        "imo": "9123789",
+        "vessel_name": "NITC Tour",
+        "vessel_type": "Crude Oil Tanker",
+        "nearby_mpa": "Khark Island Wildlife Refuge",
+        "img_idx": 375
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              50.22,
+              29.21
+            ],
+            [
+              50.39,
+              29.23
+            ],
+            [
+              50.36,
+              29.3
+            ],
+            [
+              50.23,
+              29.28
+            ],
+            [
+              50.22,
+              29.21
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0045",
+        "name": "Bushehr Offshore Transit Bilge Streak",
+        "region": "5. Persian Gulf (Northern & Central)",
+        "time_detection": "2024-04-14 11:50:40",
+        "length_km": 13,
+        "area_km2": 31.8,
+        "lat": 28.85,
+        "lon": 50.7,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240414T115040_001665_068B12_0357",
+        "eez": "Iran",
+        "flag_code": "PAN",
+        "mmsi": "355001230",
+        "imo": "9487561",
+        "vessel_name": "Persian Star",
+        "vessel_type": "Chemical Tanker",
+        "nearby_mpa": "Nayakband National Park",
+        "img_idx": 45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              50.62,
+              28.81
+            ],
+            [
+              50.79,
+              28.83
+            ],
+            [
+              50.76,
+              28.9
+            ],
+            [
+              50.63,
+              28.88
+            ],
+            [
+              50.62,
+              28.81
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0950",
+        "name": "Strait of Hormuz Supertanker Bilge Lane",
+        "region": "6. Southern Gulf & Gulf of Oman",
+        "time_detection": "2024-04-12 06:10:15",
+        "length_km": 24,
+        "area_km2": 62.4,
+        "lat": 26.35,
+        "lon": 56.4,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240412T061015_035150_068B12_4682",
+        "eez": "Oman",
+        "flag_code": "MHL",
+        "mmsi": "538004000",
+        "imo": "9786541",
+        "vessel_name": "Front Altair",
+        "vessel_type": "Crude Oil Tanker",
+        "nearby_mpa": "Musandam Coral Peninsula",
+        "img_idx": 950
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              56.32,
+              26.31
+            ],
+            [
+              56.49,
+              26.33
+            ],
+            [
+              56.46,
+              26.4
+            ],
+            [
+              56.33,
+              26.38
+            ],
+            [
+              56.32,
+              26.31
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0231",
+        "name": "Fujairah Offshore Bunkering Anchorage Slick",
+        "region": "6. Southern Gulf & Gulf of Oman",
+        "time_detection": "2024-02-28 13:40:00",
+        "length_km": 15,
+        "area_km2": 39.5,
+        "lat": 25.18,
+        "lon": 56.45,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240228T134000_008547_068B12_1125",
+        "eez": "UAE",
+        "flag_code": "UAE",
+        "mmsi": "477995000",
+        "imo": "9321654",
+        "vessel_name": "Fujairah Pioneer",
+        "vessel_type": "Bunker Tanker",
+        "nearby_mpa": "Khor Kalba Mangrove Reserve",
+        "img_idx": 231
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              56.37,
+              25.14
+            ],
+            [
+              56.54,
+              25.16
+            ],
+            [
+              56.51,
+              25.23
+            ],
+            [
+              56.38,
+              25.21
+            ],
+            [
+              56.37,
+              25.14
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0375",
+        "name": "Qatar North Field Condensate Line Plume",
+        "region": "6. Southern Gulf & Gulf of Oman",
+        "time_detection": "2023-11-29 09:25:30",
+        "length_km": 17,
+        "area_km2": 44.0,
+        "lat": 26.2,
+        "lon": 51.9,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231129T092530_013875_068B12_1BD5",
+        "eez": "Qatar",
+        "flag_code": "QAT",
+        "mmsi": "466000120",
+        "imo": "9654320",
+        "vessel_name": "Qatargas Bravo Rig",
+        "vessel_type": "Gas Platform",
+        "nearby_mpa": "Al Reem Biosphere Reserve",
+        "img_idx": 375
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              51.82,
+              26.16
+            ],
+            [
+              51.99,
+              26.18
+            ],
+            [
+              51.96,
+              26.25
+            ],
+            [
+              51.83,
+              26.23
+            ],
+            [
+              51.82,
+              26.16
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0045",
+        "name": "Das Island Offshore Crude Terminal Slick",
+        "region": "6. Southern Gulf & Gulf of Oman",
+        "time_detection": "2024-03-02 15:10:00",
+        "length_km": 13,
+        "area_km2": 32.5,
+        "lat": 25.15,
+        "lon": 52.88,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240302T151000_001665_068B12_0357",
+        "eez": "UAE",
+        "flag_code": "UAE",
+        "mmsi": "470000340",
+        "imo": "9412580",
+        "vessel_name": "ADNOC Das Asset",
+        "vessel_type": "Offshore Terminal",
+        "nearby_mpa": "Marawah Marine Biosphere",
+        "img_idx": 45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.8,
+              25.11
+            ],
+            [
+              52.97,
+              25.13
+            ],
+            [
+              52.94,
+              25.2
+            ],
+            [
+              52.81,
+              25.18
+            ],
+            [
+              52.8,
+              25.11
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0095",
+        "name": "Muscat Port Sultan Qaboos Tanker Weep",
+        "region": "6. Southern Gulf & Gulf of Oman",
+        "time_detection": "2023-09-15 07:45:10",
+        "length_km": 10,
+        "area_km2": 24.0,
+        "lat": 23.63,
+        "lon": 58.58,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230915T074510_003515_068B12_070D",
+        "eez": "Oman",
+        "flag_code": "OMN",
+        "mmsi": "461000210",
+        "imo": "9234120",
+        "vessel_name": "Oman Pride",
+        "vessel_type": "Product Tanker",
+        "nearby_mpa": "Daymaniyat Islands Nature Reserve",
+        "img_idx": 95
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              58.5,
+              23.59
+            ],
+            [
+              58.67,
+              23.61
+            ],
+            [
+              58.64,
+              23.68
+            ],
+            [
+              58.51,
+              23.66
+            ],
+            [
+              58.5,
+              23.59
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0089",
+        "name": "Bab-el-Mandeb Strait Transit Tanker Discharge",
+        "region": "7. Red Sea (Southern & Bab-el-Mandeb)",
+        "time_detection": "2023-11-18 03:20:10",
+        "length_km": 22,
+        "area_km2": 56.4,
+        "lat": 12.72,
+        "lon": 43.3,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231118T032010_003293_068B12_069B",
+        "eez": "Yemen",
+        "flag_code": "LBR",
+        "mmsi": "636015000",
+        "imo": "9854120",
+        "vessel_name": "Red Sea Star",
+        "vessel_type": "Crude Oil Tanker",
+        "nearby_mpa": "Red Sea Coral Reef Sanctuaries",
+        "img_idx": 89
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              43.22,
+              12.68
+            ],
+            [
+              43.39,
+              12.7
+            ],
+            [
+              43.36,
+              12.77
+            ],
+            [
+              43.23,
+              12.75
+            ],
+            [
+              43.22,
+              12.68
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0230",
+        "name": "FSO Safer Vicinity Siphon Weepage",
+        "region": "7. Red Sea (Southern & Bab-el-Mandeb)",
+        "time_detection": "2023-06-15 11:30:00",
+        "length_km": 14,
+        "area_km2": 33.8,
+        "lat": 15.12,
+        "lon": 42.6,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230615T113000_008510_068B12_1112",
+        "eez": "Yemen",
+        "flag_code": "DJI",
+        "mmsi": "621000100",
+        "imo": "9456321",
+        "vessel_name": "UN Salvage Nautica",
+        "vessel_type": "Salvage Vessel",
+        "nearby_mpa": "Kamaran Island Marine Reserve",
+        "img_idx": 230
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              42.52,
+              15.08
+            ],
+            [
+              42.69,
+              15.1
+            ],
+            [
+              42.66,
+              15.17
+            ],
+            [
+              42.53,
+              15.15
+            ],
+            [
+              42.52,
+              15.08
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0512",
+        "name": "Hanish Islands Tanker Traffic Bilge Track",
+        "region": "7. Red Sea (Southern & Bab-el-Mandeb)",
+        "time_detection": "2024-01-28 17:15:40",
+        "length_km": 16,
+        "area_km2": 38.0,
+        "lat": 13.75,
+        "lon": 42.75,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240128T171540_018944_068B12_2600",
+        "eez": "Yemen",
+        "flag_code": "PAN",
+        "mmsi": "351002340",
+        "imo": "9765123",
+        "vessel_name": "Al-Mandeb Express",
+        "vessel_type": "Container Ship",
+        "nearby_mpa": "Zuqar Island Marine Park",
+        "img_idx": 512
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              42.67,
+              13.71
+            ],
+            [
+              42.84,
+              13.73
+            ],
+            [
+              42.81,
+              13.8
+            ],
+            [
+              42.68,
+              13.78
+            ],
+            [
+              42.67,
+              13.71
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0680",
+        "name": "Assab Coastal Anchorage Fuel Spill",
+        "region": "7. Red Sea (Southern & Bab-el-Mandeb)",
+        "time_detection": "2023-10-09 08:50:00",
+        "length_km": 11,
+        "area_km2": 26.5,
+        "lat": 13.0,
+        "lon": 42.75,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231009T085000_025160_068B12_3278",
+        "eez": "Eritrea",
+        "flag_code": "ERI",
+        "mmsi": "625000120",
+        "imo": "9123450",
+        "vessel_name": "Dahlak Carrier",
+        "vessel_type": "Cargo",
+        "nearby_mpa": "Dahlak Marine National Park",
+        "img_idx": 680
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              42.67,
+              12.96
+            ],
+            [
+              42.84,
+              12.98
+            ],
+            [
+              42.81,
+              13.05
+            ],
+            [
+              42.68,
+              13.03
+            ],
+            [
+              42.67,
+              12.96
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0142",
+        "name": "Djibouti Port Doraleh Bunkering Sheen",
+        "region": "7. Red Sea (Southern & Bab-el-Mandeb)",
+        "time_detection": "2024-04-04 14:05:22",
+        "length_km": 9,
+        "area_km2": 21.0,
+        "lat": 11.6,
+        "lon": 43.1,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240404T140522_005254_068B12_0A8A",
+        "eez": "Djibouti",
+        "flag_code": "DJI",
+        "mmsi": "621000340",
+        "imo": "9345670",
+        "vessel_name": "Doraleh Fueler",
+        "vessel_type": "Bunkering Barge",
+        "nearby_mpa": "Musha Island Marine Reserve",
+        "img_idx": 142
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              43.02,
+              11.56
+            ],
+            [
+              43.19,
+              11.58
+            ],
+            [
+              43.16,
+              11.65
+            ],
+            [
+              43.03,
+              11.63
+            ],
+            [
+              43.02,
+              11.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0375",
+        "name": "Gulf of Suez SUMED Pipeline Base Slick",
+        "region": "8. Red Sea (Northern & Gulf of Suez)",
+        "time_detection": "2024-03-05 09:15:30",
+        "length_km": 17,
+        "area_km2": 44.0,
+        "lat": 28.15,
+        "lon": 33.4,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240305T091530_013875_068B12_1BD5",
+        "eez": "Egypt",
+        "flag_code": "EGY",
+        "mmsi": "622000450",
+        "imo": "9541238",
+        "vessel_name": "SUMED SPM Terminal",
+        "vessel_type": "Crude Terminal",
+        "nearby_mpa": "Ras Mohammed National Marine Park",
+        "img_idx": 375
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.32,
+              28.11
+            ],
+            [
+              33.49,
+              28.13
+            ],
+            [
+              33.46,
+              28.2
+            ],
+            [
+              33.33,
+              28.18
+            ],
+            [
+              33.32,
+              28.11
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0513",
+        "name": "Yanbu Petrochemical Terminal Outfall",
+        "region": "8. Red Sea (Northern & Gulf of Suez)",
+        "time_detection": "2023-09-14 13:40:00",
+        "length_km": 12,
+        "area_km2": 27.2,
+        "lat": 23.95,
+        "lon": 38.1,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230914T134000_018981_068B12_2613",
+        "eez": "Saudi Arabia",
+        "flag_code": "SAU",
+        "mmsi": "403001880",
+        "imo": "9654120",
+        "vessel_name": "Yanbu Petro Hub",
+        "vessel_type": "Refinery Outfall",
+        "nearby_mpa": "Al Wajh Lagoon Sanctuary",
+        "img_idx": 513
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.02,
+              23.91
+            ],
+            [
+              38.19,
+              23.93
+            ],
+            [
+              38.16,
+              24.0
+            ],
+            [
+              38.03,
+              23.98
+            ],
+            [
+              38.02,
+              23.91
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0681",
+        "name": "Jeddah Islamic Port Outer Channel Leak",
+        "region": "8. Red Sea (Northern & Gulf of Suez)",
+        "time_detection": "2024-01-10 16:20:00",
+        "length_km": 10,
+        "area_km2": 23.5,
+        "lat": 21.48,
+        "lon": 39.15,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240110T162000_025197_068B12_328B",
+        "eez": "Saudi Arabia",
+        "flag_code": "SAU",
+        "mmsi": "403000550",
+        "imo": "9321450",
+        "vessel_name": "Jeddah Bunkerer",
+        "vessel_type": "Fuel Barge",
+        "nearby_mpa": "Farasan Islands Marine Sanctuary",
+        "img_idx": 681
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.07,
+              21.44
+            ],
+            [
+              39.24,
+              21.46
+            ],
+            [
+              39.21,
+              21.53
+            ],
+            [
+              39.08,
+              21.51
+            ],
+            [
+              39.07,
+              21.44
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0088",
+        "name": "Hurghada Resort Coast Tanker Bilge",
+        "region": "8. Red Sea (Northern & Gulf of Suez)",
+        "time_detection": "2023-12-20 07:10:15",
+        "length_km": 14,
+        "area_km2": 32.0,
+        "lat": 27.25,
+        "lon": 33.85,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231220T071015_003256_068B12_0688",
+        "eez": "Egypt",
+        "flag_code": "PAN",
+        "mmsi": "352000670",
+        "imo": "9785412",
+        "vessel_name": "Suez Transit King",
+        "vessel_type": "Bulk Carrier",
+        "nearby_mpa": "Giftun Island National Park",
+        "img_idx": 88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.77,
+              27.21
+            ],
+            [
+              33.94,
+              27.23
+            ],
+            [
+              33.91,
+              27.3
+            ],
+            [
+              33.78,
+              27.28
+            ],
+            [
+              33.77,
+              27.21
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0046",
+        "name": "Sinai Peninsula Tor Coastal Seep",
+        "region": "8. Red Sea (Northern & Gulf of Suez)",
+        "time_detection": "2024-05-02 12:35:00",
+        "length_km": 11,
+        "area_km2": 25.8,
+        "lat": 28.23,
+        "lon": 33.62,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240502T123500_001702_068B12_036A",
+        "eez": "Egypt",
+        "flag_code": "EGY",
+        "mmsi": "622000780",
+        "imo": "9123899",
+        "vessel_name": "Sinai Field Platform",
+        "vessel_type": "Offshore Rig",
+        "nearby_mpa": "Nabq Managed Resource Protected Area",
+        "img_idx": 46
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.54,
+              28.19
+            ],
+            [
+              33.71,
+              28.21
+            ],
+            [
+              33.68,
+              28.28
+            ],
+            [
+              33.55,
+              28.26
+            ],
+            [
+              33.54,
+              28.19
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0513",
+        "name": "Strait of Malacca Supertanker Bilge Slick",
+        "region": "9. Strait of Malacca & Singapore",
+        "time_detection": "2024-02-10 04:45:00",
+        "length_km": 25,
+        "area_km2": 64.2,
+        "lat": 1.3,
+        "lon": 103.35,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240210T044500_018981_068B12_2613",
+        "eez": "Malaysia",
+        "flag_code": "SGP",
+        "mmsi": "563048000",
+        "imo": "9854123",
+        "vessel_name": "Strait Navigator",
+        "vessel_type": "Crude Oil Tanker",
+        "nearby_mpa": "Pulau Kukup National Marine Park",
+        "img_idx": 513
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.27,
+              1.26
+            ],
+            [
+              103.44,
+              1.28
+            ],
+            [
+              103.41,
+              1.35
+            ],
+            [
+              103.28,
+              1.33
+            ],
+            [
+              103.27,
+              1.26
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0046",
+        "name": "Singapore Eastern Anchorage Bunkering Leak",
+        "region": "9. Strait of Malacca & Singapore",
+        "time_detection": "2024-04-18 15:30:12",
+        "length_km": 11,
+        "area_km2": 25.1,
+        "lat": 1.25,
+        "lon": 103.95,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240418T153012_001702_068B12_036A",
+        "eez": "Singapore",
+        "flag_code": "SGP",
+        "mmsi": "563001200",
+        "imo": "9412365",
+        "vessel_name": "Marine Honor",
+        "vessel_type": "Bunker Tanker",
+        "nearby_mpa": "Sisters' Islands Marine Park",
+        "img_idx": 46
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.87,
+              1.21
+            ],
+            [
+              104.04,
+              1.23
+            ],
+            [
+              104.01,
+              1.3
+            ],
+            [
+              103.88,
+              1.28
+            ],
+            [
+              103.87,
+              1.21
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0088",
+        "name": "Port Klang Approaches Cargo Vessel Bilge",
+        "region": "9. Strait of Malacca & Singapore",
+        "time_detection": "2023-11-15 08:20:00",
+        "length_km": 14,
+        "area_km2": 33.0,
+        "lat": 3.0,
+        "lon": 101.35,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231115T082000_003256_068B12_0688",
+        "eez": "Malaysia",
+        "flag_code": "MYS",
+        "mmsi": "533000450",
+        "imo": "9654128",
+        "vessel_name": "Klang Express",
+        "vessel_type": "Container Ship",
+        "nearby_mpa": "Pulau Ketam Mangrove Reserve",
+        "img_idx": 88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.27,
+              2.96
+            ],
+            [
+              101.44,
+              2.98
+            ],
+            [
+              101.41,
+              3.05
+            ],
+            [
+              101.28,
+              3.03
+            ],
+            [
+              101.27,
+              2.96
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0231",
+        "name": "Johor Strait Industrial Fuel Weepage",
+        "region": "9. Strait of Malacca & Singapore",
+        "time_detection": "2023-08-25 12:10:45",
+        "length_km": 9,
+        "area_km2": 20.4,
+        "lat": 1.45,
+        "lon": 103.8,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230825T121045_008547_068B12_1125",
+        "eez": "Malaysia",
+        "flag_code": "MYS",
+        "mmsi": "533000780",
+        "imo": "9321458",
+        "vessel_name": "Johor Bunkerer",
+        "vessel_type": "Fuel Barge",
+        "nearby_mpa": "Tanjung Piai National Park",
+        "img_idx": 231
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.72,
+              1.41
+            ],
+            [
+              103.89,
+              1.43
+            ],
+            [
+              103.86,
+              1.5
+            ],
+            [
+              103.73,
+              1.48
+            ],
+            [
+              103.72,
+              1.41
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0376",
+        "name": "Riau Archipelago Batam Anchorage Slick",
+        "region": "9. Strait of Malacca & Singapore",
+        "time_detection": "2024-03-29 17:40:00",
+        "length_km": 13,
+        "area_km2": 30.5,
+        "lat": 1.15,
+        "lon": 104.05,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240329T174000_013912_068B12_1BE8",
+        "eez": "Indonesia",
+        "flag_code": "IDN",
+        "mmsi": "525000340",
+        "imo": "9785410",
+        "vessel_name": "Batam Leader",
+        "vessel_type": "Product Tanker",
+        "nearby_mpa": "Bintan Coral Reef Sanctuary",
+        "img_idx": 376
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.97,
+              1.11
+            ],
+            [
+              104.14,
+              1.13
+            ],
+            [
+              104.11,
+              1.2
+            ],
+            [
+              103.98,
+              1.18
+            ],
+            [
+              103.97,
+              1.11
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0143",
+        "name": "MT Princess Empress Sunken Tanker Disaster",
+        "region": "10. South China Sea & Sunda Shelf",
+        "time_detection": "2023-02-28 02:15:00",
+        "length_km": 28,
+        "area_km2": 78.6,
+        "lat": 13.18,
+        "lon": 121.52,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230228T021500_005291_068B12_0A9D",
+        "eez": "Philippines",
+        "flag_code": "PHL",
+        "mmsi": "548001000",
+        "imo": "9854129",
+        "vessel_name": "Princess Empress",
+        "vessel_type": "Industrial Tanker",
+        "nearby_mpa": "Verde Island Passage MPA",
+        "img_idx": 143
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.44,
+              13.14
+            ],
+            [
+              121.61,
+              13.16
+            ],
+            [
+              121.58,
+              13.23
+            ],
+            [
+              121.45,
+              13.21
+            ],
+            [
+              121.44,
+              13.14
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0680",
+        "name": "Natuna Sea Offshore Drilling Block Seep",
+        "region": "10. South China Sea & Sunda Shelf",
+        "time_detection": "2023-09-25 11:20:00",
+        "length_km": 16,
+        "area_km2": 38.2,
+        "lat": 4.5,
+        "lon": 106.8,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230925T112000_025160_068B12_3278",
+        "eez": "Indonesia",
+        "flag_code": "IDN",
+        "mmsi": "525001200",
+        "imo": "9654129",
+        "vessel_name": "Natuna Platform B",
+        "vessel_type": "Offshore Rig",
+        "nearby_mpa": "Anambas Marine Tourism Park",
+        "img_idx": 680
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.72,
+              4.46
+            ],
+            [
+              106.89,
+              4.48
+            ],
+            [
+              106.86,
+              4.55
+            ],
+            [
+              106.73,
+              4.53
+            ],
+            [
+              106.72,
+              4.46
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0088",
+        "name": "Sunda Strait Heavy Transit Bilge Streak",
+        "region": "10. South China Sea & Sunda Shelf",
+        "time_detection": "2023-10-05 06:40:10",
+        "length_km": 15,
+        "area_km2": 36.4,
+        "lat": -5.9,
+        "lon": 105.8,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231005T064010_003256_068B12_0688",
+        "eez": "Indonesia",
+        "flag_code": "PAN",
+        "mmsi": "352000880",
+        "imo": "9412589",
+        "vessel_name": "Sunda Trader",
+        "vessel_type": "Bulk Carrier",
+        "nearby_mpa": "Ujung Kulon National Park",
+        "img_idx": 88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.72,
+              -5.94
+            ],
+            [
+              105.89,
+              -5.92
+            ],
+            [
+              105.86,
+              -5.85
+            ],
+            [
+              105.73,
+              -5.87
+            ],
+            [
+              105.72,
+              -5.94
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0231",
+        "name": "Gulf of Thailand Chevron Platform Spill",
+        "region": "10. South China Sea & Sunda Shelf",
+        "time_detection": "2023-08-01 14:15:00",
+        "length_km": 17,
+        "area_km2": 42.0,
+        "lat": 9.4,
+        "lon": 101.5,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230801T141500_008547_068B12_1125",
+        "eez": "Thailand",
+        "flag_code": "THA",
+        "mmsi": "567000120",
+        "imo": "9321789",
+        "vessel_name": "Erawan Rig Complex",
+        "vessel_type": "Gas/Oil Rig",
+        "nearby_mpa": "Mu Ko Ang Thong Marine Park",
+        "img_idx": 231
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.42,
+              9.36
+            ],
+            [
+              101.59,
+              9.38
+            ],
+            [
+              101.56,
+              9.45
+            ],
+            [
+              101.43,
+              9.43
+            ],
+            [
+              101.42,
+              9.36
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0376",
+        "name": "Balikpapan Bay Subsea Pipeline Fracture",
+        "region": "10. South China Sea & Sunda Shelf",
+        "time_detection": "2024-05-02 09:30:20",
+        "length_km": 21,
+        "area_km2": 51.5,
+        "lat": -1.3,
+        "lon": 116.82,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240502T093020_013912_068B12_1BE8",
+        "eez": "Indonesia",
+        "flag_code": "IDN",
+        "mmsi": "525000990",
+        "imo": "9785420",
+        "vessel_name": "Pertamina Pipeline",
+        "vessel_type": "Subsea Pipeline",
+        "nearby_mpa": "Mangrove Center Graha Indah",
+        "img_idx": 376
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.74,
+              -1.34
+            ],
+            [
+              116.91,
+              -1.32
+            ],
+            [
+              116.88,
+              -1.25
+            ],
+            [
+              116.75,
+              -1.27
+            ],
+            [
+              116.74,
+              -1.34
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0951",
+        "name": "Bohai Bay Penglai 19-3 Seepage",
+        "region": "11. East China Sea & Yellow Sea",
+        "time_detection": "2023-05-18 10:10:00",
+        "length_km": 19,
+        "area_km2": 47.0,
+        "lat": 38.45,
+        "lon": 120.1,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230518T101000_035187_068B12_4695",
+        "eez": "China",
+        "flag_code": "CHN",
+        "mmsi": "412000340",
+        "imo": "9654130",
+        "vessel_name": "CNOOC Bohai Rig",
+        "vessel_type": "Offshore Rig",
+        "nearby_mpa": "Miaodao Archipelago Marine Reserve",
+        "img_idx": 951
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.02,
+              38.41
+            ],
+            [
+              120.19,
+              38.43
+            ],
+            [
+              120.16,
+              38.5
+            ],
+            [
+              120.03,
+              38.48
+            ],
+            [
+              120.02,
+              38.41
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0013",
+        "name": "Hong Kong Pearl River Estuary Bilge Trail",
+        "region": "11. East China Sea & Yellow Sea",
+        "time_detection": "2024-03-10 16:45:00",
+        "length_km": 13,
+        "area_km2": 29.8,
+        "lat": 22.15,
+        "lon": 113.85,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240310T164500_000481_068B12_00F7",
+        "eez": "China",
+        "flag_code": "HKG",
+        "mmsi": "477889000",
+        "imo": "9412590",
+        "vessel_name": "Pearl River Carrier",
+        "vessel_type": "Container Ship",
+        "nearby_mpa": "Sha Chau Marine Park",
+        "img_idx": 13
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.77,
+              22.11
+            ],
+            [
+              113.94,
+              22.13
+            ],
+            [
+              113.91,
+              22.2
+            ],
+            [
+              113.78,
+              22.18
+            ],
+            [
+              113.77,
+              22.11
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0811",
+        "name": "Taiwan Strait Container Traffic Bilge",
+        "region": "11. East China Sea & Yellow Sea",
+        "time_detection": "2024-02-05 07:20:15",
+        "length_km": 18,
+        "area_km2": 43.5,
+        "lat": 24.2,
+        "lon": 119.8,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240205T072015_030007_068B12_3C31",
+        "eez": "Taiwan",
+        "flag_code": "TWN",
+        "mmsi": "416001200",
+        "imo": "9785421",
+        "vessel_name": "Formosa Navigator",
+        "vessel_type": "Bulk Carrier",
+        "nearby_mpa": "Taijiang National Park",
+        "img_idx": 811
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              119.72,
+              24.16
+            ],
+            [
+              119.89,
+              24.18
+            ],
+            [
+              119.86,
+              24.25
+            ],
+            [
+              119.73,
+              24.23
+            ],
+            [
+              119.72,
+              24.16
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0142",
+        "name": "Ningbo-Zhoushan Port Mega Anchorage Slick",
+        "region": "11. East China Sea & Yellow Sea",
+        "time_detection": "2023-11-08 13:15:30",
+        "length_km": 15,
+        "area_km2": 36.0,
+        "lat": 29.85,
+        "lon": 122.2,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231108T131530_005254_068B12_0A8A",
+        "eez": "China",
+        "flag_code": "CHN",
+        "mmsi": "413000450",
+        "imo": "9321790",
+        "vessel_name": "Zhoushan Bunkerer",
+        "vessel_type": "Fuel Barge",
+        "nearby_mpa": "Putuo Island Coral Reserve",
+        "img_idx": 142
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              122.12,
+              29.81
+            ],
+            [
+              122.29,
+              29.83
+            ],
+            [
+              122.26,
+              29.9
+            ],
+            [
+              122.13,
+              29.88
+            ],
+            [
+              122.12,
+              29.81
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0095",
+        "name": "Jeju Strait Crude Transit Bilge Plume",
+        "region": "11. East China Sea & Yellow Sea",
+        "time_detection": "2024-04-22 05:50:00",
+        "length_km": 16,
+        "area_km2": 39.2,
+        "lat": 33.8,
+        "lon": 126.5,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240422T055000_003515_068B12_070D",
+        "eez": "South Korea",
+        "flag_code": "KOR",
+        "mmsi": "440000120",
+        "imo": "9541240",
+        "vessel_name": "Korea Star",
+        "vessel_type": "Crude Oil Tanker",
+        "nearby_mpa": "Jeju Island Biosphere Reserve",
+        "img_idx": 95
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.42,
+              33.76
+            ],
+            [
+              126.59,
+              33.78
+            ],
+            [
+              126.56,
+              33.85
+            ],
+            [
+              126.43,
+              33.83
+            ],
+            [
+              126.42,
+              33.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0142",
+        "name": "Tokyo Bay Uraga Channel Tanker Flange Leak",
+        "region": "12. Northwest Pacific & Sea of Japan",
+        "time_detection": "2023-11-12 11:30:00",
+        "length_km": 9,
+        "area_km2": 21.0,
+        "lat": 35.25,
+        "lon": 139.75,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231112T113000_005254_068B12_0A8A",
+        "eez": "Japan",
+        "flag_code": "JPN",
+        "mmsi": "431002500",
+        "imo": "9123460",
+        "vessel_name": "Tokyo Maru",
+        "vessel_type": "Product Tanker",
+        "nearby_mpa": "Miura Peninsula Sanctuary",
+        "img_idx": 142
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.67,
+              35.21
+            ],
+            [
+              139.84,
+              35.23
+            ],
+            [
+              139.81,
+              35.3
+            ],
+            [
+              139.68,
+              35.28
+            ],
+            [
+              139.67,
+              35.21
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0512",
+        "name": "Tsushima Strait Heavy Tanker Bilge Streak",
+        "region": "12. Northwest Pacific & Sea of Japan",
+        "time_detection": "2024-01-18 08:15:40",
+        "length_km": 17,
+        "area_km2": 41.5,
+        "lat": 34.5,
+        "lon": 129.5,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240118T081540_018944_068B12_2600",
+        "eez": "Japan",
+        "flag_code": "PAN",
+        "mmsi": "351000990",
+        "imo": "9785422",
+        "vessel_name": "Pacific Leader",
+        "vessel_type": "Crude Oil Tanker",
+        "nearby_mpa": "Iki-Tsushima Quasi-National Park",
+        "img_idx": 512
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              129.42,
+              34.46
+            ],
+            [
+              129.59,
+              34.48
+            ],
+            [
+              129.56,
+              34.55
+            ],
+            [
+              129.43,
+              34.53
+            ],
+            [
+              129.42,
+              34.46
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0055",
+        "name": "Osaka Bay Chemical Plant Coastal Outfall",
+        "region": "12. Northwest Pacific & Sea of Japan",
+        "time_detection": "2023-09-02 14:40:00",
+        "length_km": 8,
+        "area_km2": 17.8,
+        "lat": 34.6,
+        "lon": 135.3,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230902T144000_002035_068B12_0415",
+        "eez": "Japan",
+        "flag_code": "JPN",
+        "mmsi": "431000670",
+        "imo": "9412591",
+        "vessel_name": "Kobe Chemical Trans",
+        "vessel_type": "Chemical Tanker",
+        "nearby_mpa": "Setonaikai National Park",
+        "img_idx": 55
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              135.22,
+              34.56
+            ],
+            [
+              135.39,
+              34.58
+            ],
+            [
+              135.36,
+              34.65
+            ],
+            [
+              135.23,
+              34.63
+            ],
+            [
+              135.22,
+              34.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0680",
+        "name": "Vladivostok Approach Peter the Great Bay",
+        "region": "12. Northwest Pacific & Sea of Japan",
+        "time_detection": "2023-12-19 10:05:00",
+        "length_km": 14,
+        "area_km2": 33.4,
+        "lat": 42.9,
+        "lon": 131.8,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231219T100500_025160_068B12_3278",
+        "eez": "Russia",
+        "flag_code": "RUS",
+        "mmsi": "273000340",
+        "imo": "9654131",
+        "vessel_name": "Amur Carrier",
+        "vessel_type": "Bulk Carrier",
+        "nearby_mpa": "Far Eastern Marine Biosphere",
+        "img_idx": 680
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              131.72,
+              42.86
+            ],
+            [
+              131.89,
+              42.88
+            ],
+            [
+              131.86,
+              42.95
+            ],
+            [
+              131.73,
+              42.93
+            ],
+            [
+              131.72,
+              42.86
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0376",
+        "name": "Sakhalin-II Offshore Platform Seep",
+        "region": "12. Northwest Pacific & Sea of Japan",
+        "time_detection": "2024-03-14 06:30:25",
+        "length_km": 19,
+        "area_km2": 46.2,
+        "lat": 52.8,
+        "lon": 143.5,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240314T063025_013912_068B12_1BE8",
+        "eez": "Russia",
+        "flag_code": "RUS",
+        "mmsi": "273000890",
+        "imo": "9321791",
+        "vessel_name": "Molikpaq Platform",
+        "vessel_type": "Offshore Rig",
+        "nearby_mpa": "Sakhalin Marine Wildlife Area",
+        "img_idx": 376
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              143.42,
+              52.76
+            ],
+            [
+              143.59,
+              52.78
+            ],
+            [
+              143.56,
+              52.85
+            ],
+            [
+              143.43,
+              52.83
+            ],
+            [
+              143.42,
+              52.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0950",
+        "name": "Baniyas Thermal Power Plant Heavy Fuel Spill",
+        "region": "13. Eastern Mediterranean & Levant",
+        "time_detection": "2021-08-23 04:10:00",
+        "length_km": 29,
+        "area_km2": 72.0,
+        "lat": 35.18,
+        "lon": 35.92,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20210823T041000_035150_068B12_4682",
+        "eez": "Syria",
+        "flag_code": "SYR",
+        "mmsi": "468000120",
+        "imo": "9541241",
+        "vessel_name": "Baniyas Depot",
+        "vessel_type": "Storage Facility",
+        "nearby_mpa": "Cape Greco Marine Reserve",
+        "img_idx": 950
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.84,
+              35.14
+            ],
+            [
+              36.01,
+              35.16
+            ],
+            [
+              35.98,
+              35.23
+            ],
+            [
+              35.85,
+              35.21
+            ],
+            [
+              35.84,
+              35.14
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0089",
+        "name": "Alexandria Port Outer Bunkering Spill",
+        "region": "13. Eastern Mediterranean & Levant",
+        "time_detection": "2023-10-14 12:45:00",
+        "length_km": 13,
+        "area_km2": 31.5,
+        "lat": 31.2,
+        "lon": 29.85,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231014T124500_003293_068B12_069B",
+        "eez": "Egypt",
+        "flag_code": "EGY",
+        "mmsi": "622000990",
+        "imo": "9123461",
+        "vessel_name": "Pharaoh Fueler",
+        "vessel_type": "Bunkering Barge",
+        "nearby_mpa": "El Omayed Biosphere Reserve",
+        "img_idx": 89
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.77,
+              31.16
+            ],
+            [
+              29.94,
+              31.18
+            ],
+            [
+              29.91,
+              31.25
+            ],
+            [
+              29.78,
+              31.23
+            ],
+            [
+              29.77,
+              31.16
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0230",
+        "name": "Port Said Suez Canal Approach Tanker Leak",
+        "region": "13. Eastern Mediterranean & Levant",
+        "time_detection": "2024-02-20 15:20:30",
+        "length_km": 15,
+        "area_km2": 36.8,
+        "lat": 31.3,
+        "lon": 32.35,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240220T152030_008510_068B12_1112",
+        "eez": "Egypt",
+        "flag_code": "PAN",
+        "mmsi": "352001100",
+        "imo": "9785423",
+        "vessel_name": "Canal Pioneer",
+        "vessel_type": "Container Ship",
+        "nearby_mpa": "Lake Manzala Wetland",
+        "img_idx": 230
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.27,
+              31.26
+            ],
+            [
+              32.44,
+              31.28
+            ],
+            [
+              32.41,
+              31.35
+            ],
+            [
+              32.28,
+              31.33
+            ],
+            [
+              32.27,
+              31.26
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0375",
+        "name": "Cyprus South Coast Akrotiri Tanker Slick",
+        "region": "13. Eastern Mediterranean & Levant",
+        "time_detection": "2023-07-28 09:10:15",
+        "length_km": 11,
+        "area_km2": 26.0,
+        "lat": 34.6,
+        "lon": 33.0,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230728T091015_013875_068B12_1BD5",
+        "eez": "Cyprus",
+        "flag_code": "CYP",
+        "mmsi": "209000120",
+        "imo": "9412592",
+        "vessel_name": "Larnaca Star",
+        "vessel_type": "Product Tanker",
+        "nearby_mpa": "Akrotiri Marine Sanctuary",
+        "img_idx": 375
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.92,
+              34.56
+            ],
+            [
+              33.09,
+              34.58
+            ],
+            [
+              33.06,
+              34.65
+            ],
+            [
+              32.93,
+              34.63
+            ],
+            [
+              32.92,
+              34.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0045",
+        "name": "Haifa Bay Petroleum Anchorage Discharge",
+        "region": "13. Eastern Mediterranean & Levant",
+        "time_detection": "2024-04-09 17:00:00",
+        "length_km": 10,
+        "area_km2": 23.4,
+        "lat": 32.85,
+        "lon": 35.0,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240409T170000_001665_068B12_0357",
+        "eez": "Israel",
+        "flag_code": "ISR",
+        "mmsi": "428000100",
+        "imo": "9654132",
+        "vessel_name": "Levant Carrier",
+        "vessel_type": "Chemical Tanker",
+        "nearby_mpa": "Rosh Hanikra Marine Reserve",
+        "img_idx": 45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.92,
+              32.81
+            ],
+            [
+              35.09,
+              32.83
+            ],
+            [
+              35.06,
+              32.9
+            ],
+            [
+              34.93,
+              32.88
+            ],
+            [
+              34.92,
+              32.81
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0811",
+        "name": "Crete & Peloponnese Passage Bilge Trail",
+        "region": "14. Central & Western Mediterranean",
+        "time_detection": "2023-09-12 08:30:00",
+        "length_km": 16,
+        "area_km2": 39.1,
+        "lat": 35.85,
+        "lon": 23.65,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230912T083000_030007_068B12_3C31",
+        "eez": "Greece",
+        "flag_code": "GRC",
+        "mmsi": "210452000",
+        "imo": "9321792",
+        "vessel_name": "Hellas Trader",
+        "vessel_type": "Container Ship",
+        "nearby_mpa": "Pelagos Marine Sanctuary",
+        "img_idx": 811
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.57,
+              35.81
+            ],
+            [
+              23.74,
+              35.83
+            ],
+            [
+              23.71,
+              35.9
+            ],
+            [
+              23.58,
+              35.88
+            ],
+            [
+              23.57,
+              35.81
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0045",
+        "name": "Strait of Sicily VLCC Ballast Discharge",
+        "region": "14. Central & Western Mediterranean",
+        "time_detection": "2024-01-08 14:15:20",
+        "length_km": 18,
+        "area_km2": 46.5,
+        "lat": 37.1,
+        "lon": 11.9,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240108T141520_001665_068B12_0357",
+        "eez": "Italy",
+        "flag_code": "ITA",
+        "mmsi": "247012000",
+        "imo": "9785424",
+        "vessel_name": "Sicilia Pride",
+        "vessel_type": "Crude Oil Tanker",
+        "nearby_mpa": "Egadi Islands Marine Reserve",
+        "img_idx": 45
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.82,
+              37.06
+            ],
+            [
+              11.99,
+              37.08
+            ],
+            [
+              11.96,
+              37.15
+            ],
+            [
+              11.83,
+              37.13
+            ],
+            [
+              11.82,
+              37.06
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0143",
+        "name": "Strait of Gibraltar OS 35 Collision Spill",
+        "region": "14. Central & Western Mediterranean",
+        "time_detection": "2022-09-01 10:00:00",
+        "length_km": 15,
+        "area_km2": 35.8,
+        "lat": 36.12,
+        "lon": -5.35,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20220901T100000_005291_068B12_0A9D",
+        "eez": "Spain",
+        "flag_code": "TUV",
+        "mmsi": "572002000",
+        "imo": "9541242",
+        "vessel_name": "OS 35",
+        "vessel_type": "Bulk Carrier",
+        "nearby_mpa": "Estrecho Natural Park",
+        "img_idx": 143
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.43,
+              36.08
+            ],
+            [
+              -5.26,
+              36.1
+            ],
+            [
+              -5.29,
+              36.17
+            ],
+            [
+              -5.42,
+              36.15
+            ],
+            [
+              -5.43,
+              36.08
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0375",
+        "name": "Gulf of Lion Marseille Refinery Offshore Slick",
+        "region": "14. Central & Western Mediterranean",
+        "time_detection": "2024-04-05 16:50:00",
+        "length_km": 12,
+        "area_km2": 28.3,
+        "lat": 43.2,
+        "lon": 5.1,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240405T165000_013875_068B12_1BD5",
+        "eez": "France",
+        "flag_code": "FRA",
+        "mmsi": "228001000",
+        "imo": "9123462",
+        "vessel_name": "Fos Navigator",
+        "vessel_type": "Product Tanker",
+        "nearby_mpa": "Calanques National Park",
+        "img_idx": 375
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.02,
+              43.16
+            ],
+            [
+              5.19,
+              43.18
+            ],
+            [
+              5.16,
+              43.25
+            ],
+            [
+              5.03,
+              43.23
+            ],
+            [
+              5.02,
+              43.16
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0012",
+        "name": "Balearic Sea Palma Bunkering Overflow",
+        "region": "14. Central & Western Mediterranean",
+        "time_detection": "2023-11-22 11:20:10",
+        "length_km": 9,
+        "area_km2": 20.0,
+        "lat": 39.5,
+        "lon": 2.6,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231122T112010_000444_068B12_00E4",
+        "eez": "Spain",
+        "flag_code": "ESP",
+        "mmsi": "224000340",
+        "imo": "9654133",
+        "vessel_name": "Mallorca Fueler",
+        "vessel_type": "Bunker Tanker",
+        "nearby_mpa": "Cabrera Archipelago Marine Park",
+        "img_idx": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.52,
+              39.46
+            ],
+            [
+              2.69,
+              39.48
+            ],
+            [
+              2.66,
+              39.55
+            ],
+            [
+              2.53,
+              39.53
+            ],
+            [
+              2.52,
+              39.46
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0230",
+        "name": "Kerch Strait Volgo-Neft River Tanker Spill",
+        "region": "15. Black Sea & Sea of Azov",
+        "time_detection": "2023-12-14 07:30:00",
+        "length_km": 21,
+        "area_km2": 54.0,
+        "lat": 45.15,
+        "lon": 36.6,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231214T073000_008510_068B12_1112",
+        "eez": "Russia",
+        "flag_code": "RUS",
+        "mmsi": "273001800",
+        "imo": "9412593",
+        "vessel_name": "Volgo-Neft 123",
+        "vessel_type": "River Tanker",
+        "nearby_mpa": "Opuksky Marine Sanctuary",
+        "img_idx": 230
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              36.52,
+              45.11
+            ],
+            [
+              36.69,
+              45.13
+            ],
+            [
+              36.66,
+              45.2
+            ],
+            [
+              36.53,
+              45.18
+            ],
+            [
+              36.52,
+              45.11
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0951",
+        "name": "Novorossiysk CPC Oil Terminal SPM Failure",
+        "region": "15. Black Sea & Sea of Azov",
+        "time_detection": "2021-08-07 15:40:12",
+        "length_km": 23,
+        "area_km2": 59.0,
+        "lat": 44.7,
+        "lon": 37.8,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20210807T154012_035187_068B12_4695",
+        "eez": "Russia",
+        "flag_code": "KAZ",
+        "mmsi": "273000550",
+        "imo": "9785425",
+        "vessel_name": "CPC Terminal SPM #1",
+        "vessel_type": "Crude SPM Terminal",
+        "nearby_mpa": "Utrish State Nature Reserve",
+        "img_idx": 951
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.72,
+              44.66
+            ],
+            [
+              37.89,
+              44.68
+            ],
+            [
+              37.86,
+              44.75
+            ],
+            [
+              37.73,
+              44.73
+            ],
+            [
+              37.72,
+              44.66
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0088",
+        "name": "Constanta Port Approaches Bulk Carrier Bilge",
+        "region": "15. Black Sea & Sea of Azov",
+        "time_detection": "2024-01-25 10:15:00",
+        "length_km": 14,
+        "area_km2": 32.5,
+        "lat": 44.15,
+        "lon": 28.7,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240125T101500_003256_068B12_0688",
+        "eez": "Romania",
+        "flag_code": "ROU",
+        "mmsi": "264000120",
+        "imo": "9321793",
+        "vessel_name": "Danube King",
+        "vessel_type": "Bulk Carrier",
+        "nearby_mpa": "Vama Veche Marine Reserve",
+        "img_idx": 88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.62,
+              44.11
+            ],
+            [
+              28.79,
+              44.13
+            ],
+            [
+              28.76,
+              44.2
+            ],
+            [
+              28.63,
+              44.18
+            ],
+            [
+              28.62,
+              44.11
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0513",
+        "name": "Bosphorus Strait Northern Approach Slick",
+        "region": "15. Black Sea & Sea of Azov",
+        "time_detection": "2023-10-30 13:50:40",
+        "length_km": 12,
+        "area_km2": 28.0,
+        "lat": 41.25,
+        "lon": 29.1,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231030T135040_018981_068B12_2613",
+        "eez": "Turkey",
+        "flag_code": "TUR",
+        "mmsi": "271000230",
+        "imo": "9654134",
+        "vessel_name": "Istanbul Trans",
+        "vessel_type": "Chemical Tanker",
+        "nearby_mpa": "Black Sea Coastal Reserve",
+        "img_idx": 513
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.02,
+              41.21
+            ],
+            [
+              29.19,
+              41.23
+            ],
+            [
+              29.16,
+              41.3
+            ],
+            [
+              29.03,
+              41.28
+            ],
+            [
+              29.02,
+              41.21
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0143",
+        "name": "Odessa Gulf Tanker Missile Impact & Leak",
+        "region": "15. Black Sea & Sea of Azov",
+        "time_detection": "2022-03-03 09:00:00",
+        "length_km": 17,
+        "area_km2": 43.2,
+        "lat": 46.5,
+        "lon": 30.8,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20220303T090000_005291_068B12_0A9D",
+        "eez": "Ukraine",
+        "flag_code": "PAN",
+        "mmsi": "351000550",
+        "imo": "9123463",
+        "vessel_name": "Millennial Spirit",
+        "vessel_type": "Chemical Tanker",
+        "nearby_mpa": "Tuzly Lagoons National Park",
+        "img_idx": 143
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.72,
+              46.46
+            ],
+            [
+              30.89,
+              46.48
+            ],
+            [
+              30.86,
+              46.55
+            ],
+            [
+              30.73,
+              46.53
+            ],
+            [
+              30.72,
+              46.46
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0681",
+        "name": "Forties Oil Field Offshore Platform Discharge",
+        "region": "16. North Sea & Norwegian Sea",
+        "time_detection": "2023-06-20 11:10:00",
+        "length_km": 16,
+        "area_km2": 38.5,
+        "lat": 57.75,
+        "lon": 0.95,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230620T111000_025197_068B12_328B",
+        "eez": "United Kingdom",
+        "flag_code": "GBR",
+        "mmsi": "232000120",
+        "imo": "9541243",
+        "vessel_name": "Forties Alpha Rig",
+        "vessel_type": "Offshore Platform",
+        "nearby_mpa": "Southern North Sea MPA",
+        "img_idx": 681
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.87,
+              57.71
+            ],
+            [
+              1.04,
+              57.73
+            ],
+            [
+              1.01,
+              57.8
+            ],
+            [
+              0.88,
+              57.78
+            ],
+            [
+              0.87,
+              57.71
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0951",
+        "name": "Ekofisk Field Subsea Pipeline Weepage",
+        "region": "16. North Sea & Norwegian Sea",
+        "time_detection": "2024-02-17 14:35:20",
+        "length_km": 17,
+        "area_km2": 41.0,
+        "lat": 56.55,
+        "lon": 3.2,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240217T143520_035187_068B12_4695",
+        "eez": "Norway",
+        "flag_code": "NOR",
+        "mmsi": "257000340",
+        "imo": "9785426",
+        "vessel_name": "ConocoPhillips Ekofisk",
+        "vessel_type": "Subsea Pipeline",
+        "nearby_mpa": "Dogger Bank Marine Sanctuary",
+        "img_idx": 951
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.12,
+              56.51
+            ],
+            [
+              3.29,
+              56.53
+            ],
+            [
+              3.26,
+              56.6
+            ],
+            [
+              3.13,
+              56.58
+            ],
+            [
+              3.12,
+              56.51
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0375",
+        "name": "Brent Field Decommissioning Rig Plume",
+        "region": "16. North Sea & Norwegian Sea",
+        "time_detection": "2023-09-18 08:20:00",
+        "length_km": 13,
+        "area_km2": 30.0,
+        "lat": 61.05,
+        "lon": 1.7,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230918T082000_013875_068B12_1BD5",
+        "eez": "United Kingdom",
+        "flag_code": "GBR",
+        "mmsi": "235000560",
+        "imo": "9321794",
+        "vessel_name": "Brent Bravo Rig",
+        "vessel_type": "Offshore Platform",
+        "nearby_mpa": "Fetlar Marine Protected Area",
+        "img_idx": 375
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.62,
+              61.01
+            ],
+            [
+              1.79,
+              61.03
+            ],
+            [
+              1.76,
+              61.1
+            ],
+            [
+              1.63,
+              61.08
+            ],
+            [
+              1.62,
+              61.01
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0046",
+        "name": "Statfjord Oil Field Offshore Loading Spill",
+        "region": "16. North Sea & Norwegian Sea",
+        "time_detection": "2024-04-11 16:00:00",
+        "length_km": 15,
+        "area_km2": 36.2,
+        "lat": 61.25,
+        "lon": 1.85,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240411T160000_001702_068B12_036A",
+        "eez": "Norway",
+        "flag_code": "NOR",
+        "mmsi": "258000120",
+        "imo": "9654135",
+        "vessel_name": "Statfjord SPM #2",
+        "vessel_type": "Offshore Loading Buoy",
+        "nearby_mpa": "Ytre Sognefjord Coral Reef",
+        "img_idx": 46
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.77,
+              61.21
+            ],
+            [
+              1.94,
+              61.23
+            ],
+            [
+              1.91,
+              61.3
+            ],
+            [
+              1.78,
+              61.28
+            ],
+            [
+              1.77,
+              61.21
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0089",
+        "name": "Troll Gas/Condensate Field Flange Weep",
+        "region": "16. North Sea & Norwegian Sea",
+        "time_detection": "2023-11-05 10:45:15",
+        "length_km": 11,
+        "area_km2": 24.8,
+        "lat": 60.65,
+        "lon": 3.75,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231105T104515_003293_068B12_069B",
+        "eez": "Norway",
+        "flag_code": "NOR",
+        "mmsi": "259000230",
+        "imo": "9123464",
+        "vessel_name": "Troll A Giant Platform",
+        "vessel_type": "Gas/Oil Rig",
+        "nearby_mpa": "Korsfjorden Marine Area",
+        "img_idx": 89
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.67,
+              60.61
+            ],
+            [
+              3.84,
+              60.63
+            ],
+            [
+              3.81,
+              60.7
+            ],
+            [
+              3.68,
+              60.68
+            ],
+            [
+              3.67,
+              60.61
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0089",
+        "name": "English Channel Dover Strait Cargo Bilge",
+        "region": "17. Baltic Sea & Danish Straits",
+        "time_detection": "2023-10-28 07:15:30",
+        "length_km": 13,
+        "area_km2": 31.2,
+        "lat": 51.1,
+        "lon": 1.45,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231028T071530_003293_068B12_069B",
+        "eez": "United Kingdom",
+        "flag_code": "GBR",
+        "mmsi": "235002000",
+        "imo": "9412594",
+        "vessel_name": "Dover Navigator",
+        "vessel_type": "Container Ship",
+        "nearby_mpa": "Goodwin Sands Marine Zone",
+        "img_idx": 89
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.37,
+              51.06
+            ],
+            [
+              1.54,
+              51.08
+            ],
+            [
+              1.51,
+              51.15
+            ],
+            [
+              1.38,
+              51.13
+            ],
+            [
+              1.37,
+              51.06
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0046",
+        "name": "Kattegat Strait Tanker Collision Slick",
+        "region": "17. Baltic Sea & Danish Straits",
+        "time_detection": "2024-01-30 13:40:00",
+        "length_km": 14,
+        "area_km2": 34.6,
+        "lat": 57.2,
+        "lon": 11.5,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240130T134000_001702_068B12_036A",
+        "eez": "Denmark",
+        "flag_code": "DNK",
+        "mmsi": "219001400",
+        "imo": "9785427",
+        "vessel_name": "Nordic Transporter",
+        "vessel_type": "Chemical Tanker",
+        "nearby_mpa": "Laesoe Trindel Marine Habitat",
+        "img_idx": 46
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.42,
+              57.16
+            ],
+            [
+              11.59,
+              57.18
+            ],
+            [
+              11.56,
+              57.25
+            ],
+            [
+              11.43,
+              57.23
+            ],
+            [
+              11.42,
+              57.16
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0810",
+        "name": "Gulf of Finland Primorsk Crude Transit Trail",
+        "region": "17. Baltic Sea & Danish Straits",
+        "time_detection": "2023-12-02 05:20:10",
+        "length_km": 20,
+        "area_km2": 49.8,
+        "lat": 60.1,
+        "lon": 28.5,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231202T052010_029970_068B12_3C1E",
+        "eez": "Russia",
+        "flag_code": "RUS",
+        "mmsi": "273004500",
+        "imo": "9541244",
+        "vessel_name": "Baltic Captain",
+        "vessel_type": "Crude Oil Tanker",
+        "nearby_mpa": "Eastern Gulf of Finland Park",
+        "img_idx": 810
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.42,
+              60.06
+            ],
+            [
+              28.59,
+              60.08
+            ],
+            [
+              28.56,
+              60.15
+            ],
+            [
+              28.43,
+              60.13
+            ],
+            [
+              28.42,
+              60.06
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0142",
+        "name": "Gotland Deep Transit Cargo Bilge Streak",
+        "region": "17. Baltic Sea & Danish Straits",
+        "time_detection": "2024-03-15 16:10:00",
+        "length_km": 12,
+        "area_km2": 28.5,
+        "lat": 57.3,
+        "lon": 19.5,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240315T161000_005254_068B12_0A8A",
+        "eez": "Sweden",
+        "flag_code": "SWE",
+        "mmsi": "265000120",
+        "imo": "9321795",
+        "vessel_name": "Svea Trader",
+        "vessel_type": "General Cargo",
+        "nearby_mpa": "Gotska Sandon National Park",
+        "img_idx": 142
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              19.42,
+              57.26
+            ],
+            [
+              19.59,
+              57.28
+            ],
+            [
+              19.56,
+              57.35
+            ],
+            [
+              19.43,
+              57.33
+            ],
+            [
+              19.42,
+              57.26
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0055",
+        "name": "Skagerrak Deepwater Bunkering Overfill",
+        "region": "17. Baltic Sea & Danish Straits",
+        "time_detection": "2023-08-14 11:00:25",
+        "length_km": 10,
+        "area_km2": 23.0,
+        "lat": 58.0,
+        "lon": 9.5,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230814T110025_002035_068B12_0415",
+        "eez": "Norway",
+        "flag_code": "NOR",
+        "mmsi": "257000890",
+        "imo": "9654136",
+        "vessel_name": "Viking Fueler",
+        "vessel_type": "Bunkering Barge",
+        "nearby_mpa": "Ytre Hvaler Marine Park",
+        "img_idx": 55
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.42,
+              57.96
+            ],
+            [
+              9.59,
+              57.98
+            ],
+            [
+              9.56,
+              58.05
+            ],
+            [
+              9.43,
+              58.03
+            ],
+            [
+              9.42,
+              57.96
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0951",
+        "name": "Mississippi Canyon MC-20 Chronic Plume",
+        "region": "18. North America (Gulf of Mexico & Caribbean)",
+        "time_detection": "2022-04-28 11:30:00",
+        "length_km": 27,
+        "area_km2": 71.5,
+        "lat": 28.9,
+        "lon": -88.88,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20220428T113000_035187_068B12_4695",
+        "eez": "United States",
+        "flag_code": "USA",
+        "mmsi": "367000100",
+        "imo": "9854125",
+        "vessel_name": "Taylor Energy Site",
+        "vessel_type": "Subsea Well Complex",
+        "nearby_mpa": "Flower Garden Banks Sanctuary",
+        "img_idx": 951
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.96,
+              28.86
+            ],
+            [
+              -88.79,
+              28.88
+            ],
+            [
+              -88.82,
+              28.95
+            ],
+            [
+              -88.95,
+              28.93
+            ],
+            [
+              -88.96,
+              28.86
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0012",
+        "name": "Bay of Campeche Ku-Maloob-Zaap Fire & Spill",
+        "region": "18. North America (Gulf of Mexico & Caribbean)",
+        "time_detection": "2021-07-02 06:15:00",
+        "length_km": 23,
+        "area_km2": 58.0,
+        "lat": 19.35,
+        "lon": -92.15,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20210702T061500_000444_068B12_00E4",
+        "eez": "Mexico",
+        "flag_code": "MEX",
+        "mmsi": "345000120",
+        "imo": "9412595",
+        "vessel_name": "Pemex KMZ Cluster",
+        "vessel_type": "Gas/Oil Pipeline",
+        "nearby_mpa": "Laguna de Terminos Reserve",
+        "img_idx": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -92.23,
+              19.31
+            ],
+            [
+              -92.06,
+              19.33
+            ],
+            [
+              -92.09,
+              19.4
+            ],
+            [
+              -92.22,
+              19.38
+            ],
+            [
+              -92.23,
+              19.31
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0143",
+        "name": "Tobago Gulf of Paria Mystery Barge Overturn",
+        "region": "18. North America (Gulf of Mexico & Caribbean)",
+        "time_detection": "2024-02-07 14:40:20",
+        "length_km": 26,
+        "area_km2": 66.0,
+        "lat": 11.15,
+        "lon": -60.75,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240207T144020_005291_068B12_0A9D",
+        "eez": "Trinidad and Tobago",
+        "flag_code": "TTO",
+        "mmsi": "362000100",
+        "imo": "9785428",
+        "vessel_name": "Solo Creed Tug",
+        "vessel_type": "Fuel Barge",
+        "nearby_mpa": "Buccoo Reef Marine Park",
+        "img_idx": 143
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -60.83,
+              11.11
+            ],
+            [
+              -60.66,
+              11.13
+            ],
+            [
+              -60.69,
+              11.2
+            ],
+            [
+              -60.82,
+              11.18
+            ],
+            [
+              -60.83,
+              11.11
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0088",
+        "name": "Galveston Bay Tanker Lightering Leak",
+        "region": "18. North America (Gulf of Mexico & Caribbean)",
+        "time_detection": "2023-09-08 09:20:00",
+        "length_km": 11,
+        "area_km2": 26.5,
+        "lat": 29.3,
+        "lon": -94.75,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230908T092000_003256_068B12_0688",
+        "eez": "United States",
+        "flag_code": "USA",
+        "mmsi": "367001400",
+        "imo": "9321796",
+        "vessel_name": "Texas Navigator",
+        "vessel_type": "Chemical Tanker",
+        "nearby_mpa": "Galveston Island Marine Zone",
+        "img_idx": 88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -94.83,
+              29.26
+            ],
+            [
+              -94.66,
+              29.28
+            ],
+            [
+              -94.69,
+              29.35
+            ],
+            [
+              -94.82,
+              29.33
+            ],
+            [
+              -94.83,
+              29.26
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0231",
+        "name": "Tampa Bay Offshore Bunkering Overflow",
+        "region": "18. North America (Gulf of Mexico & Caribbean)",
+        "time_detection": "2024-04-03 16:15:45",
+        "length_km": 9,
+        "area_km2": 21.8,
+        "lat": 27.8,
+        "lon": -82.6,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240403T161545_008547_068B12_1125",
+        "eez": "United States",
+        "flag_code": "USA",
+        "mmsi": "368000230",
+        "imo": "9654137",
+        "vessel_name": "Gulf Coast Bunkerer",
+        "vessel_type": "Fuel Barge",
+        "nearby_mpa": "Egmont Key National Wildlife Refuge",
+        "img_idx": 231
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.68,
+              27.76
+            ],
+            [
+              -82.51,
+              27.78
+            ],
+            [
+              -82.54,
+              27.85
+            ],
+            [
+              -82.67,
+              27.83
+            ],
+            [
+              -82.68,
+              27.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0376",
+        "name": "Huntington Beach Beta Pipeline Rupture",
+        "region": "19. North & South America (Pacific Coast)",
+        "time_detection": "2021-10-02 12:45:00",
+        "length_km": 14,
+        "area_km2": 33.7,
+        "lat": 33.62,
+        "lon": -118.0,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20211002T124500_013912_068B12_1BE8",
+        "eez": "United States",
+        "flag_code": "USA",
+        "mmsi": "366000120",
+        "imo": "9541245",
+        "vessel_name": "Platform Elly",
+        "vessel_type": "Subsea Crude Pipeline",
+        "nearby_mpa": "Bolsa Chica Ecological Reserve",
+        "img_idx": 376
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.08,
+              33.58
+            ],
+            [
+              -117.91,
+              33.6
+            ],
+            [
+              -117.94,
+              33.67
+            ],
+            [
+              -118.07,
+              33.65
+            ],
+            [
+              -118.08,
+              33.58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0231",
+        "name": "Repsol La Pampilla Ventanilla Disaster",
+        "region": "19. North & South America (Pacific Coast)",
+        "time_detection": "2022-01-15 17:30:10",
+        "length_km": 17,
+        "area_km2": 42.1,
+        "lat": -11.88,
+        "lon": -77.14,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20220115T173010_008547_068B12_1125",
+        "eez": "Peru",
+        "flag_code": "PER",
+        "mmsi": "248039000",
+        "imo": "9123465",
+        "vessel_name": "Mare Doricum",
+        "vessel_type": "Crude Oil Tanker",
+        "nearby_mpa": "Guanera Islands National Reserve",
+        "img_idx": 231
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -77.22,
+              -11.92
+            ],
+            [
+              -77.05,
+              -11.9
+            ],
+            [
+              -77.08,
+              -11.83
+            ],
+            [
+              -77.21,
+              -11.85
+            ],
+            [
+              -77.22,
+              -11.92
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0681",
+        "name": "Santa Barbara Channel Offshore Platform Seep",
+        "region": "19. North & South America (Pacific Coast)",
+        "time_detection": "2023-11-19 08:10:00",
+        "length_km": 12,
+        "area_km2": 29.0,
+        "lat": 34.35,
+        "lon": -119.6,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231119T081000_025197_068B12_328B",
+        "eez": "United States",
+        "flag_code": "USA",
+        "mmsi": "367000560",
+        "imo": "9785429",
+        "vessel_name": "Platform Holly Asset",
+        "vessel_type": "Offshore Platform",
+        "nearby_mpa": "Channel Islands Marine Sanctuary",
+        "img_idx": 681
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.68,
+              34.31
+            ],
+            [
+              -119.51,
+              34.33
+            ],
+            [
+              -119.54,
+              34.4
+            ],
+            [
+              -119.67,
+              34.38
+            ],
+            [
+              -119.68,
+              34.31
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0089",
+        "name": "Guayaquil Gulf Container Ship Grounding",
+        "region": "19. North & South America (Pacific Coast)",
+        "time_detection": "2024-01-12 14:05:30",
+        "length_km": 13,
+        "area_km2": 30.5,
+        "lat": -2.8,
+        "lon": -80.2,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240112T140530_003293_068B12_069B",
+        "eez": "Ecuador",
+        "flag_code": "ECU",
+        "mmsi": "735000100",
+        "imo": "9412596",
+        "vessel_name": "Pacific Pioneer",
+        "vessel_type": "Container Ship",
+        "nearby_mpa": "El Salado Mangrove Reserve",
+        "img_idx": 89
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.28,
+              -2.84
+            ],
+            [
+              -80.11,
+              -2.82
+            ],
+            [
+              -80.14,
+              -2.75
+            ],
+            [
+              -80.27,
+              -2.77
+            ],
+            [
+              -80.28,
+              -2.84
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0142",
+        "name": "Valparaiso Outer Anchorage Fuel Discharge",
+        "region": "19. North & South America (Pacific Coast)",
+        "time_detection": "2023-08-08 10:50:00",
+        "length_km": 10,
+        "area_km2": 23.5,
+        "lat": -33.0,
+        "lon": -71.6,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20230808T105000_005254_068B12_0A8A",
+        "eez": "Chile",
+        "flag_code": "CHL",
+        "mmsi": "725000230",
+        "imo": "9654138",
+        "vessel_name": "Chilean Express",
+        "vessel_type": "Bulk Carrier",
+        "nearby_mpa": "Juan Fernandez Marine Park",
+        "img_idx": 142
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.68,
+              -33.04
+            ],
+            [
+              -71.51,
+              -33.02
+            ],
+            [
+              -71.54,
+              -32.95
+            ],
+            [
+              -71.67,
+              -32.97
+            ],
+            [
+              -71.68,
+              -33.04
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0088",
+        "name": "Niger Delta Bonny Offshore Terminal Slick",
+        "region": "20. Atlantic Ocean & West African Coast",
+        "time_detection": "2023-12-04 05:40:00",
+        "length_km": 25,
+        "area_km2": 65.3,
+        "lat": 4.25,
+        "lon": 7.15,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231204T054000_003256_068B12_0688",
+        "eez": "Nigeria",
+        "flag_code": "NGA",
+        "mmsi": "657000120",
+        "imo": "9541246",
+        "vessel_name": "Bonny Crude Base",
+        "vessel_type": "Export Pipeline",
+        "nearby_mpa": "Apoi Creek Forest Reserve",
+        "img_idx": 88
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.07,
+              4.21
+            ],
+            [
+              7.24,
+              4.23
+            ],
+            [
+              7.21,
+              4.3
+            ],
+            [
+              7.08,
+              4.28
+            ],
+            [
+              7.07,
+              4.21
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0375",
+        "name": "Cabinda Deepwater Block 14 Production Plume",
+        "region": "20. Atlantic Ocean & West African Coast",
+        "time_detection": "2024-03-14 13:20:00",
+        "length_km": 20,
+        "area_km2": 49.0,
+        "lat": -5.45,
+        "lon": 11.7,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240314T132000_013875_068B12_1BD5",
+        "eez": "Angola",
+        "flag_code": "AGO",
+        "mmsi": "603000340",
+        "imo": "9785430",
+        "vessel_name": "FPSO Kuito Asset",
+        "vessel_type": "FPSO Facility",
+        "nearby_mpa": "Mayumba Marine Park",
+        "img_idx": 375
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.62,
+              -5.49
+            ],
+            [
+              11.79,
+              -5.47
+            ],
+            [
+              11.76,
+              -5.4
+            ],
+            [
+              11.63,
+              -5.42
+            ],
+            [
+              11.62,
+              -5.49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0230",
+        "name": "Guanabara Bay Petrobras Pipeline Weep",
+        "region": "20. Atlantic Ocean & West African Coast",
+        "time_detection": "2023-10-18 16:45:20",
+        "length_km": 15,
+        "area_km2": 37.0,
+        "lat": -22.8,
+        "lon": -43.15,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231018T164520_008510_068B12_1112",
+        "eez": "Brazil",
+        "flag_code": "BRA",
+        "mmsi": "710000100",
+        "imo": "9321797",
+        "vessel_name": "Reduc Pipeline Asset",
+        "vessel_type": "Refinery Subsea Line",
+        "nearby_mpa": "Guapimirim Environmental Area",
+        "img_idx": 230
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -43.23,
+              -22.84
+            ],
+            [
+              -43.06,
+              -22.82
+            ],
+            [
+              -43.09,
+              -22.75
+            ],
+            [
+              -43.22,
+              -22.77
+            ],
+            [
+              -43.23,
+              -22.84
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0512",
+        "name": "Cape Town Agulhas Retroflection Tanker Wash",
+        "region": "20. Atlantic Ocean & West African Coast",
+        "time_detection": "2024-01-14 09:10:15",
+        "length_km": 17,
+        "area_km2": 42.8,
+        "lat": -34.5,
+        "lon": 18.2,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20240114T091015_018944_068B12_2600",
+        "eez": "South Africa",
+        "flag_code": "ZAF",
+        "mmsi": "636009000",
+        "imo": "9654139",
+        "vessel_name": "Cape Route Pioneer",
+        "vessel_type": "Crude Oil Tanker",
+        "nearby_mpa": "Table Mountain Marine Zone",
+        "img_idx": 512
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.12,
+              -34.54
+            ],
+            [
+              18.29,
+              -34.52
+            ],
+            [
+              18.26,
+              -34.45
+            ],
+            [
+              18.13,
+              -34.47
+            ],
+            [
+              18.12,
+              -34.54
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GS-0046",
+        "name": "Ghana Jubilee Deepwater FPSO Kwame Nkrumah",
+        "region": "20. Atlantic Ocean & West African Coast",
+        "time_detection": "2023-11-20 12:00:00",
+        "length_km": 14,
+        "area_km2": 33.5,
+        "lat": 4.55,
+        "lon": -2.9,
+        "s1_scene_id": "S1A_IW_GRDH_1SDV_20231120T120000_001702_068B12_036A",
+        "eez": "Ghana",
+        "flag_code": "GHA",
+        "mmsi": "627000120",
+        "imo": "9123466",
+        "vessel_name": "Tullow Jubilee FPSO",
+        "vessel_type": "FPSO Vessel",
+        "nearby_mpa": "Cape Three Points Forest Reserve",
+        "img_idx": 46
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.98,
+              4.51
+            ],
+            [
+              -2.81,
+              4.53
+            ],
+            [
+              -2.84,
+              4.6
+            ],
+            [
+              -2.97,
+              4.58
+            ],
+            [
+              -2.98,
+              4.51
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
